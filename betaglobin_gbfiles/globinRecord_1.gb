@@ -1,0 +1,18 @@
+ID: AH001475.2
+Name: AH001475
+Description: Homo sapiens beta-globin gene, complete cds
+Number of features: 13
+/molecule_type=DNA
+/topology=linear
+/data_file_division=PRI
+/date=10-JUN-2016
+/accessions=['AH001475', 'M34058', 'M34059']
+/sequence_version=2
+/keywords=['beta-globin']
+/source=Homo sapiens (human)
+/organism=Homo sapiens
+/taxonomy=['Eukaryota', 'Metazoa', 'Chordata', 'Craniata', 'Vertebrata', 'Euteleostomi', 'Mammalia', 'Eutheria', 'Euarchontoglires', 'Primates', 'Haplorrhini', 'Catarrhini', 'Hominidae', 'Homo']
+/references=[Reference(title='Molecular basis for dominantly inherited inclusion body beta-thalassemia', ...)]
+/comment=On or before Jun 10, 2016 this sequence version replaced M34058.1,
+M34059.1, AH001475.1.
+Seq('TCTATTTATTTAGCAATAATAGAGAAAGCATTTAAGAGAATAAAGCAATGGAAA...AAA')

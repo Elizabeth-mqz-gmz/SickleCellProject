@@ -1,0 +1,2450 @@
+LOCUS       AH001475                4355 bp    DNA     linear   PRI 10-JUN-2016
+DEFINITION  Homo sapiens beta-globin gene, complete cds.
+ACCESSION   AH001475 M34058 M34059
+VERSION     AH001475.2
+KEYWORDS    beta-globin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 4355)
+  AUTHORS   Thein,S.L., Hesketh,C., Taylor,P., Temperley,I.J., Hutchinson,R.M.,
+            Old,J.M., Wood,W.G., Clegg,J.B. and Weatherall,D.J.
+  TITLE     Molecular basis for dominantly inherited inclusion body
+            beta-thalassemia
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 87 (10), 3924-3928 (1990)
+   PUBMED   1971109
+COMMENT     On or before Jun 10, 2016 this sequence version replaced M34058.1,
+            M34059.1, AH001475.1.
+FEATURES             Location/Qualifiers
+     source          1..4355
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+     regulatory      1484..1492
+                     /regulatory_class="CAAT_signal"
+     regulatory      1532..1538
+                     /regulatory_class="TATA_box"
+     CDS             join(1612..1703,1834..2056,2907..3015,3972..4075)
+                     /note="beta-globin"
+                     /codon_start=1
+                     /protein_id="AAA35952.1"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQPHLSVVWLMPWPTTPGQRAGLCAGPSLWQIIH
+                     PTSAGCLSESGGWCG"
+     exon            <1612..1703
+                     /note="beta-globin"
+                     /number=1
+     intron          1704..1833
+                     /note="beta-globin intron A"
+     exon            1834..2056
+                     /number=2
+     intron          2057..2906
+                     /note="beta-globin intron B"
+     exon            2907..3015
+                     /number=3
+     intron          3016..>3703
+                     /note="beta-globin intron C"
+     gap             3704..3803
+                     /estimated_length=unknown
+     intron          <3804..3971
+                     /note="beta-globin intron C"
+     exon            3972..>4075
+                     /note="beta-globin"
+                     /number=4
+ORIGIN      
+        1 tctatttatt tagcaataat agagaaagca tttaagagaa taaagcaatg gaaataagaa
+       61 atttgtaaat ttccttctga taactagaaa tagaggatcc agtttctttt ggttaaccta
+      121 aattttattt cattttattg ttttatttta ttttatttta ttttatttta ttttgtgtaa
+      181 tcgtagtttc agagtgttag agctgaaagg aagaagtagg agaaacatgc aaagtaaaag
+      241 tataacactt tccttactaa accgacatgg gtttccaggt aggggcagga ttcaggatga
+      301 ctgacagggc ccttagggaa cactgagacc ctacgctgac ctcataaatg cttgctacct
+      361 ttgctgtttt aattacatct tttaatagca ggaagcagaa ctctgcactt caaaagtttt
+      421 tcctcacctg aggagttaat ttagtacaag gggaaaaagt acagggggat gggagaaagg
+      481 cgatcacgtt gggaagctat agagaaagaa gagtaaattt tagtaaagga ggtttaaaca
+      541 aacaaaatat aaagagaaat aggaacttga atcaaggaaa tgattttaaa acgcagtatt
+      601 cttagtggac tagaggaaaa aaataatctg agccaagtag aagacctttt cccctcctac
+      661 ccctactttc taagtcacag aggctttttg ttcccccaga cactcttgca gattagtcca
+      721 ggcagaaaca gttagatgtc cccagttaac ctcctatttg acaccactga ttaccccatt
+      781 gatagtcaca ctttgggttg taagtgactt tttatttatt tgtatttttg actgcattaa
+      841 gaggtctcta gttttttatc tcttgtttcc caaaacctaa taagtaacta atgcacagag
+      901 cacattgatt tgtatttatt ctatttttag acataattta ttagcatgca tgagcaaatt
+      961 aagaaaaaca acaacaaatg aatgcatata tatgtatatg tatgtgtgta catatacaca
+     1021 tatatatata tatttttttt cttttcttac cagaaggttt taatccaaat aaggagaaga
+     1081 tatgcttaga actgaggtag agttttcatc cattctgtcc tgtaagtatt ttgcatattc
+     1141 tggagacgca ggaagagatc catctacata tcccaaagct gaattatggt agacaaaact
+     1201 cttccacttt tagtgcatca atttcttatt tgtgtaataa gaaaattggg aaaacgatct
+     1261 tcaatatgct taccaagctg tgattccaaa tattacgtaa atacacttgc aaaggaggat
+     1321 gtttttagta gcaatttgta ctgatggtat ggggccaaga gatatatctt agagggaggg
+     1381 ctgagggttt gaagtccaac tcctaagcca gtgccagaag agccaaggac aggtacggct
+     1441 gtcatcactt agacctcacc ctgtggagcc acaccctagg gttggccaat ctactcccag
+     1501 gagcagggag ggcaggagcc agggctgggc ataaaagtca gggcagagcc atctattgct
+     1561 tacatttgct tctgacacaa ctgtgttcac tagcaacctc aaacagacac catggtgcac
+     1621 ctgactcctg aggagaagtc tgccgttact gccctgtggg gcaaggtgaa cgtggatgaa
+     1681 gttggtggtg aggccctggg caggttggta tcaaggttac aagacaggtt taaggagacc
+     1741 aatagaaact gggcatgtgg agacagagaa gactcttggg tttctgatag gcactgactc
+     1801 tctctgccta ttggtctatt ttcccaccct taggctgctg gtggtctacc cttggaccca
+     1861 gaggttcttt gagtcctttg gggatctgtc cactcctgat gctgttatgg gcaaccctaa
+     1921 ggtgaaggct catggcaaga aagtgctcgg tgcctttagt gatggcctgg ctcacctgga
+     1981 caacctcaag ggcacctttg ccacactgag tgagctgcac tgtgacaagc tgcacgtgga
+     2041 tcctgagaac ttcagggtga gtctatggga cccttgatgt tttctttccc cttcttttct
+     2101 atggttaagt tcatgtcata ggaaggggag aagtaacagg gtacagttta gaatgggaaa
+     2161 cagacgaatg attgcatcag tgtggaagtc tcaggatcgt tttagtttct tttatttgct
+     2221 gttcataaca attgttttct tttgtttaat tcttgctttc tttttttttc ttctccgcaa
+     2281 tttttactat tatacttaat gccttaacat tgtgtataac aaaaggaaat atctctgaga
+     2341 tacattaagt aacttaaaaa aaaactttac acagtctgcc tagtacatta ctatttggaa
+     2401 tatatgtgtg cttatttgca tattcataat ctccctactt tattttcttt tatttttaat
+     2461 tgatacataa tcattataca tatttatggg ttaaagtgta atgttttaat atgtgtacac
+     2521 atattgacca aatcagggta attttgcatt tgtaatttta aaaaatgctt tcttctttta
+     2581 atatactttt ttgtttatct tatttctaat actttcccta atctctttct ttcagggcaa
+     2641 taatgataca atgtatcatg cctctttgca ccattctaaa gaataacagt gataatttct
+     2701 gggttaaggc aatagcaata tttctgcata taaatatttc tgcatataaa ttgtaactga
+     2761 tgtaagaggt ttcatattgc taatagcagc tacaatccag ctaccattct gcttttattt
+     2821 tatggttggg ataaggctgg attattctga gtccaagcta ggcccttttg ctaatcatgt
+     2881 tcatacctct tatcttcctc ccacagctcc tgggcaacgt gctggtctgt gtgctggccc
+     2941 atcactttgg caaagaattc accccaccag tgcagccaca cctatcagtg gtgtggctaa
+     3001 tgccctggcc cacaagtatc actaagctcg ctttcttgct gtccaatttc tattaaaggt
+     3061 tcctttgttc cctaagtcca actactaaac tgggggatat tatgaagggc cttgagcatc
+     3121 tggattctgc ctaataaaaa acatttattt tcattgcaat gatgtattta aattatttct
+     3181 gaatatttta ctaaaaaggg aatgtgggag gtcagtgcat ttaaaacata aagaaatgaa
+     3241 gagctagttc aaaccttggg aaaatacact atatcttaaa ctccatgaaa gaaggtgagg
+     3301 ctgcaaacag ctaatgcaca ttggcaacag ccctgatgcc tatgccttat tcatccctca
+     3361 gaaaaggatt caagtagagg cttgatttgg aggttaaagt tttctatgct gtattttaca
+     3421 ttacttattg ttttagctgt cctcatgaat gtcttttcac tacccatttg cttatcctgc
+     3481 atctctcagc cttgactcca ctcagttctc ttgcttagag ataccacctt tcccctgaag
+     3541 tgttccttcc atgttttacg gcgagatggt ttctcctcgc ctggccactc agccttagtt
+     3601 gtctctgttg tcttatagag gtctacttga agaaggaaaa acagggggca cggtttgact
+     3661 gtcctgtgag cccttcttcc ctgcctcccc cactcacagt gacnnnnnnn nnnnnnnnnn
+     3721 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     3781 nnnnnnnnnn nnnnnnnnnn nnntctgcat ataaattgta actgatgtaa gaggtttcat
+     3841 attgctaata gcagctacaa tccagctacc attctgcttt tattttatgg ttgggataag
+     3901 gctggattat tctgagtcca agctaggccc ttttgctaat catgttcata cctcttatct
+     3961 tcctcccaca gctcctgggc aacgtgctgg tctgtgtgct ggcccatcac tttggcaaat
+     4021 aattcacccc accagtgcag gctgcctatc agaaagtggt ggctggtgtg gctaatgccc
+     4081 tggcccacaa gtatcactaa gctcgctttc ttgctgtcca atttctatta aaggttcctt
+     4141 tgttccctaa gtccaactac taaactgggg gatattatga agggccttga gcatctggat
+     4201 tctgcctaat aaaaaacatt tattttcatt gcaatgatgt atttaaatta tttctgaata
+     4261 ttttactaaa aagggaatgt gggaggtcag tgcatttaaa acataaagaa atgaagagct
+     4321 agttcaaacc ttgggaaaat acactatatc ttaaa
+//
+
+LOCUS       HUMBETGLOR              3000 bp    DNA     linear   PRI 26-AUG-1994
+DEFINITION  Human haplotype D3 beta-globin gene, complete cds.
+ACCESSION   L26478
+VERSION     L26478.1
+KEYWORDS    beta-globin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3000)
+  AUTHORS   Fullerton,S.M., Harding,R.M., Boyce,A.J. and Clegg,J.B.
+  TITLE     Molecular and population genetic analysis of allelic sequence
+            diversity at the human beta-globin locus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (5), 1805-1809 (1994)
+   PUBMED   7907422
+FEATURES             Location/Qualifiers
+     source          1..3000
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /haplotype="D3"
+                     /note="sequence found in a Melanesian population"
+     variation       111
+                     /replace="t"
+     variation       263
+                     /note="Rsa I polymorphism"
+                     /replace="c"
+     variation       273
+                     /replace="c"
+     variation       285..286
+                     /note="2 bp insertion"
+                     /replace="at"
+     variation       286
+                     /replace="a"
+     variation       293..294
+                     /note="1 bp deletion of C or 2 bp deletion of CT"
+                     /replace=""
+     variation       345
+                     /replace="c"
+     variation       474
+                     /replace="t"
+     variation       498
+                     /replace="c"
+     CDS             join(864..955,1086..1308,2159..2287)
+                     /codon_start=1
+                     /product="beta-globin"
+                     /protein_id="AAA21116.1"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+     exon            864..955
+                     /number=1
+     variation       872
+                     /replace="c"
+     intron          956..1085
+                     /number=1
+     exon            1086..1308
+                     /number=2
+     intron          1309..2158
+                     /number=2
+     variation       1324
+                     /note="Ava II polymorphism; c"
+                     /replace=""
+     variation       1382
+                     /replace="g"
+     variation       1389
+                     /replace="c"
+     variation       1974
+                     /replace="t"
+     exon            2159..2287
+                     /number=3
+     variation       2520
+                     /replace="g"
+     variation       2600
+                     /replace="a"
+     variation       2602
+                     /replace="c"
+     variation       2758
+                     /note="Hinf I polymorphism"
+                     /replace="t"
+     variation       2911
+                     /replace="g"
+ORIGIN      
+        1 acctcctatt tgacaccact gattacccca ttgatagtca cactttgggt tgtaagtgac
+       61 tttttattta tttgtatttt tgactgcatt aagaggtctc tagtttttta cctcttgttt
+      121 cccaaaacct aataagtaac taatgcacag agcacattga tttgtattta ttctattttt
+      181 agacataatt tattagcatg catgagcaaa ttaagaaaaa caacaacaaa tgaatgcata
+      241 tatatgtata tgtatgtgtg tatatataca catatatata tatatttttt ttcttttctt
+      301 accagaaggt tttaatccaa ataaggagaa gatatgctta gaactgaggt agagttttca
+      361 tccattctgt cctgtaagta ttttgcatat tctggagacg caggaagaga tccatctaca
+      421 tatcccaaag ctgaattatg gtagacaaaa ctcttccact tttagtgcat caacttctta
+      481 tttgtgtaat aagaaaattg ggaaaacgat cttcaatatg cttaccaagc tgtgattcca
+      541 aatattacgt aaatacactt gcaaaggagg atgtttttag tagcaatttg tactgatggt
+      601 atggggccaa gagatatatc ttagagggag ggctgagggt ttgaagtcca actcctaagc
+      661 cagtgccaga agagccaagg acaggtacgg ctgtcatcac ttagacctca ccctgtggag
+      721 ccacacccta gggttggcca atctactccc aggagcaggg agggcaggag ccagggctgg
+      781 gcataaaagt cagggcagag ccatctattg cttacatttg cttctgacac aactgtgttc
+      841 actagcaacc tcaaacagac accatggtgc atctgactcc tgaggagaag tctgccgtta
+      901 ctgccctgtg gggcaaggtg aacgtggatg aagttggtgg tgaggccctg ggcaggttgg
+      961 tatcaaggtt acaagacagg tttaaggaga ccaatagaaa ctgggcatgt ggagacagag
+     1021 aagactcttg ggtttctgat aggcactgac tctctctgcc tattggtcta ttttcccacc
+     1081 cttaggctgc tggtggtcta cccttggacc cagaggttct ttgagtcctt tggggatctg
+     1141 tccactcctg atgctgttat gggcaaccct aaggtgaagg ctcatggcaa gaaagtgctc
+     1201 ggtgccttta gtgatggcct ggctcacctg gacaacctca agggcacctt tgccacactg
+     1261 agtgagctgc actgtgacaa gctgcacgtg gatcctgaga acttcagggt gagtctatgg
+     1321 gacgcttgat gttttctttc cccttctttt ctatggttaa gttcatgtca taggaagggg
+     1381 ataagtaata gggtacagtt tagaatggga aacagacgaa tgattgcatc agtgtggaag
+     1441 tctcaggatc gttttagttt cttttatttg ctgttcataa caattgtttt cttttgttta
+     1501 attcttgctt tctttttttt tcttctccgc aatttttact attatactta atgccttaac
+     1561 attgtgtata acaaaaggaa atatctctga gatacattaa gtaacttaaa aaaaaacttt
+     1621 acacagtctg cctagtacat tactatttgg aatatatgtg tgcttatttg catattcata
+     1681 atctccctac tttattttct tttattttta attgatacat aatcattata catatttatg
+     1741 ggttaaagtg taatgtttta atatgtgtac acatattgac caaatcaggg taattttgca
+     1801 tttgtaattt taaaaaatgc tttcttcttt taatatactt ttttgtttat cttatttcta
+     1861 atactttccc taatctcttt ctttcagggc aataatgata caatgtatca tgcctctttg
+     1921 caccattcta aagaataaca gtgataattt ctgggttaag gcaatagcaa tatctctgca
+     1981 tataaatatt tctgcatata aattgtaact gatgtaagag gtttcatatt gctaatagca
+     2041 gctacaatcc agctaccatt ctgcttttat tttatggttg ggataaggct ggattattct
+     2101 gagtccaagc taggcccttt tgctaatcat gttcatacct cttatcttcc tcccacagct
+     2161 cctgggcaac gtgctggtct gtgtgctggc ccatcacttt ggcaaagaat tcaccccacc
+     2221 agtgcaggct gcctatcaga aagtggtggc tggtgtggct aatgccctgg cccacaagta
+     2281 tcactaagct cgctttcttg ctgtccaatt tctattaaag gttcctttgt tccctaagtc
+     2341 caactactaa actgggggat attatgaagg gccttgagca tctggattct gcctaataaa
+     2401 aaacatttat tttcattgca atgatgtatt taaattattt ctgaatattt tactaaaaag
+     2461 ggaatgtggg aggtcagtgc atttaaaaca taaagaaatg aagagctagt tcaaaccttc
+     2521 ggaaaataca ctatatctta aactccatga aagaaggtga ggctgcaaac agctaatgca
+     2581 cattggcaac agccctgatg catatgcctt attcatccct cagaaaagga ttcaagtaga
+     2641 ggcttgattt ggaggttaaa gttttgctat gctgtatttt acattactta ttgttttagc
+     2701 tgtcctcatg aatgtctttt cactacccat ttgcttatcc tgcatctctc agccttgact
+     2761 ccactcagtt ctcttgctta gagataccac ctttcccctg aagtgttcct tccatgtttt
+     2821 acggcgagat ggtttctcct cgcctggcca ctcagcctta gttgtctctg ttgtcttata
+     2881 gaggtctact tgaagaagga aaaacagggg tcatggtttg actgtcctgt gagcccttct
+     2941 tccctgcctc ccccactcac agtgacccgg aatctgcagt gctagtctcc cggaactatc
+//
+
+LOCUS       HUMBETGLOP              3000 bp    DNA     linear   PRI 26-AUG-1994
+DEFINITION  Human haplotype D2 beta-globin gene, complete cds.
+ACCESSION   L26477
+VERSION     L26477.1
+KEYWORDS    beta-globin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3000)
+  AUTHORS   Fullerton,S.M., Harding,R.M., Boyce,A.J. and Clegg,J.B.
+  TITLE     Molecular and population genetic analysis of allelic sequence
+            diversity at the human beta-globin locus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (5), 1805-1809 (1994)
+   PUBMED   7907422
+FEATURES             Location/Qualifiers
+     source          1..3000
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /haplotype="D2"
+                     /note="sequence found in a Melanesian population"
+     variation       111
+                     /replace="c"
+     variation       263
+                     /note="Rsa I polymorphism"
+                     /replace="c"
+     variation       273
+                     /replace="c"
+     variation       285..286
+                     /note="2 bp insertion"
+                     /replace="at"
+     variation       286
+                     /replace="a"
+     variation       293..294
+                     /note="1 bp deletion of C or 2 bp deletion of CT"
+                     /replace=""
+     variation       345
+                     /replace="c"
+     variation       474
+                     /replace="t"
+     variation       498
+                     /replace="c"
+     CDS             join(864..955,1086..1308,2159..2287)
+                     /codon_start=1
+                     /product="beta-globin"
+                     /protein_id="AAA21115.1"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+     exon            <864..955
+                     /number=1
+     variation       872
+                     /replace="t"
+     intron          956..1085
+                     /number=1
+     exon            1086..1308
+                     /number=2
+     intron          1309..2158
+                     /number=2
+     variation       1324
+                     /note="Ava II polymorphism"
+                     /replace="c"
+     variation       1382
+                     /replace="g"
+     variation       1389
+                     /replace="c"
+     variation       1974
+                     /replace="t"
+     exon            2159..>2287
+                     /number=3
+     variation       2520
+                     /replace="g"
+     variation       2600
+                     /replace="a"
+     variation       2602
+                     /replace="c"
+     variation       2758
+                     /note="Hinf I polymorphism"
+                     /replace="t"
+     variation       2911
+                     /replace="g"
+ORIGIN      
+        1 acctcctatt tgacaccact gattacccca ttgatagtca cactttgggt tgtaagtgac
+       61 tttttattta tttgtatttt tgactgcatt aagaggtctc tagtttttta tctcttgttt
+      121 cccaaaacct aataagtaac taatgcacag agcacattga tttgtattta ttctattttt
+      181 agacataatt tattagcatg catgagcaaa ttaagaaaaa caacaacaaa tgaatgcata
+      241 tatatgtata tgtatgtgtg tatatataca catatatata tatatttttt ttcttttctt
+      301 accagaaggt tttaatccaa ataaggagaa gatatgctta gaactgaggt agagttttca
+      361 tccattctgt cctgtaagta ttttgcatat tctggagacg caggaagaga tccatctaca
+      421 tatcccaaag ctgaattatg gtagacaaaa ctcttccact tttagtgcat caacttctta
+      481 tttgtgtaat aagaaaattg ggaaaacgat cttcaatatg cttaccaagc tgtgattcca
+      541 aatattacgt aaatacactt gcaaaggagg atgtttttag tagcaatttg tactgatggt
+      601 atggggccaa gagatatatc ttagagggag ggctgagggt ttgaagtcca actcctaagc
+      661 cagtgccaga agagccaagg acaggtacgg ctgtcatcac ttagacctca ccctgtggag
+      721 ccacacccta gggttggcca atctactccc aggagcaggg agggcaggag ccagggctgg
+      781 gcataaaagt cagggcagag ccatctattg cttacatttg cttctgacac aactgtgttc
+      841 actagcaacc tcaaacagac accatggtgc acctgactcc tgaggagaag tctgccgtta
+      901 ctgccctgtg gggcaaggtg aacgtggatg aagttggtgg tgaggccctg ggcaggttgg
+      961 tatcaaggtt acaagacagg tttaaggaga ccaatagaaa ctgggcatgt ggagacagag
+     1021 aagactcttg ggtttctgat aggcactgac tctctctgcc tattggtcta ttttcccacc
+     1081 cttaggctgc tggtggtcta cccttggacc cagaggttct ttgagtcctt tggggatctg
+     1141 tccactcctg atgctgttat gggcaaccct aaggtgaagg ctcatggcaa gaaagtgctc
+     1201 ggtgccttta gtgatggcct ggctcacctg gacaacctca agggcacctt tgccacactg
+     1261 agtgagctgc actgtgacaa gctgcacgtg gatcctgaga acttcagggt gagtctatgg
+     1321 gacgcttgat gttttctttc cccttctttt ctatggttaa gttcatgtca taggaagggg
+     1381 ataagtaata gggtacagtt tagaatggga aacagacgaa tgattgcatc agtgtggaag
+     1441 tctcaggatc gttttagttt cttttatttg ctgttcataa caattgtttt cttttgttta
+     1501 attcttgctt tctttttttt tcttctccgc aatttttact attatactta atgccttaac
+     1561 attgtgtata acaaaaggaa atatctctga gatacattaa gtaacttaaa aaaaaacttt
+     1621 acacagtctg cctagtacat tactatttgg aatatatgtg tgcttatttg catattcata
+     1681 atctccctac tttattttct tttattttta attgatacat aatcattata catatttatg
+     1741 ggttaaagtg taatgtttta atatgtgtac acatattgac caaatcaggg taattttgca
+     1801 tttgtaattt taaaaaatgc tttcttcttt taatatactt ttttgtttat cttatttcta
+     1861 atactttccc taatctcttt ctttcagggc aataatgata caatgtatca tgcctctttg
+     1921 caccattcta aagaataaca gtgataattt ctgggttaag gcaatagcaa tatctctgca
+     1981 tataaatatt tctgcatata aattgtaact gatgtaagag gtttcatatt gctaatagca
+     2041 gctacaatcc agctaccatt ctgcttttat tttatggttg ggataaggct ggattattct
+     2101 gagtccaagc taggcccttt tgctaatcat gttcatacct cttatcttcc tcccacagct
+     2161 cctgggcaac gtgctggtct gtgtgctggc ccatcacttt ggcaaagaat tcaccccacc
+     2221 agtgcaggct gcctatcaga aagtggtggc tggtgtggct aatgccctgg cccacaagta
+     2281 tcactaagct cgctttcttg ctgtccaatt tctattaaag gttcctttgt tccctaagtc
+     2341 caactactaa actgggggat attatgaagg gccttgagca tctggattct gcctaataaa
+     2401 aaacatttat tttcattgca atgatgtatt taaattattt ctgaatattt tactaaaaag
+     2461 ggaatgtggg aggtcagtgc atttaaaaca taaagaaatg aagagctagt tcaaaccttc
+     2521 ggaaaataca ctatatctta aactccatga aagaaggtga ggctgcaaac agctaatgca
+     2581 cattggcaac agccctgatg catatgcctt attcatccct cagaaaagga ttcaagtaga
+     2641 ggcttgattt ggaggttaaa gttttgctat gctgtatttt acattactta ttgttttagc
+     2701 tgtcctcatg aatgtctttt cactacccat ttgcttatcc tgcatctctc agccttgact
+     2761 ccactcagtt ctcttgctta gagataccac ctttcccctg aagtgttcct tccatgtttt
+     2821 acggcgagat ggtttctcct cgcctggcca ctcagcctta gttgtctctg ttgtcttata
+     2881 gaggtctact tgaagaagga aaaacagggg tcatggtttg actgtcctgt gagcccttct
+     2941 tccctgcctc ccccactcac agtgacccgg aatctgcagt gctagtctcc cggaactatc
+//
+
+LOCUS       HUMBETGLOO              3000 bp    DNA     linear   PRI 26-AUG-1994
+DEFINITION  Human haplotype D1 beta-globin gene, complete cds.
+ACCESSION   L26476
+VERSION     L26476.1
+KEYWORDS    beta-globin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3000)
+  AUTHORS   Fullerton,S.M., Harding,R.M., Boyce,A.J. and Clegg,J.B.
+  TITLE     Molecular and population genetic analysis of allelic sequence
+            diversity at the human beta-globin locus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (5), 1805-1809 (1994)
+   PUBMED   7907422
+FEATURES             Location/Qualifiers
+     source          1..3000
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /haplotype="D1"
+                     /note="sequence found in a Melanesian population"
+     variation       111
+                     /replace="c"
+     variation       263
+                     /note="Rsa I polymorphism"
+                     /replace="c"
+     variation       273
+                     /replace="c"
+     variation       285..286
+                     /note="2 bp insertion"
+                     /replace="at"
+     variation       286
+                     /replace="a"
+     variation       293..294
+                     /note="1 bp deletion of C or 2 bp deletion of CT"
+                     /replace=""
+     variation       345
+                     /replace=""
+     variation       474
+                     /replace="t"
+     variation       498
+                     /replace="c"
+     CDS             join(864..955,1086..1308,2159..2287)
+                     /codon_start=1
+                     /product="beta-globin"
+                     /protein_id="AAA21114.1"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+     exon            <864..955
+                     /number=1
+     variation       872
+                     /replace="c"
+     intron          956..1085
+                     /number=1
+     exon            1086..1308
+                     /number=2
+     intron          1309..2158
+                     /number=2
+     variation       1324
+                     /note="Ava II polymorphism"
+                     /replace="c"
+     variation       1382
+                     /replace="g"
+     variation       1389
+                     /replace="c"
+     variation       1974
+                     /replace="t"
+     exon            2159..>2287
+                     /number=3
+     variation       2520
+                     /replace="g"
+     variation       2600
+                     /replace="a"
+     variation       2602
+                     /replace="c"
+     variation       2758
+                     /note="Hinf I polymorphism"
+                     /replace="t"
+     variation       2911
+                     /replace="g"
+ORIGIN      
+        1 acctcctatt tgacaccact gattacccca ttgatagtca cactttgggt tgtaagtgac
+       61 tttttattta tttgtatttt tgactgcatt aagaggtctc tagtttttta tctcttgttt
+      121 cccaaaacct aataagtaac taatgcacag agcacattga tttgtattta ttctattttt
+      181 agacataatt tattagcatg catgagcaaa ttaagaaaaa caacaacaaa tgaatgcata
+      241 tatatgtata tgtatgtgtg tatatataca catatatata tatatttttt ttcttttctt
+      301 accagaaggt tttaatccaa ataaggagaa gatatgctta gaactgaggt agagttttca
+      361 tccattctgt cctgtaagta ttttgcatat tctggagacg caggaagaga tccatctaca
+      421 tatcccaaag ctgaattatg gtagacaaaa ctcttccact tttagtgcat caacttctta
+      481 tttgtgtaat aagaaaattg ggaaaacgat cttcaatatg cttaccaagc tgtgattcca
+      541 aatattacgt aaatacactt gcaaaggagg atgtttttag tagcaatttg tactgatggt
+      601 atggggccaa gagatatatc ttagagggag ggctgagggt ttgaagtcca actcctaagc
+      661 cagtgccaga agagccaagg acaggtacgg ctgtcatcac ttagacctca ccctgtggag
+      721 ccacacccta gggttggcca atctactccc aggagcaggg agggcaggag ccagggctgg
+      781 gcataaaagt cagggcagag ccatctattg cttacatttg cttctgacac aactgtgttc
+      841 actagcaacc tcaaacagac accatggtgc atctgactcc tgaggagaag tctgccgtta
+      901 ctgccctgtg gggcaaggtg aacgtggatg aagttggtgg tgaggccctg ggcaggttgg
+      961 tatcaaggtt acaagacagg tttaaggaga ccaatagaaa ctgggcatgt ggagacagag
+     1021 aagactcttg ggtttctgat aggcactgac tctctctgcc tattggtcta ttttcccacc
+     1081 cttaggctgc tggtggtcta cccttggacc cagaggttct ttgagtcctt tggggatctg
+     1141 tccactcctg atgctgttat gggcaaccct aaggtgaagg ctcatggcaa gaaagtgctc
+     1201 ggtgccttta gtgatggcct ggctcacctg gacaacctca agggcacctt tgccacactg
+     1261 agtgagctgc actgtgacaa gctgcacgtg gatcctgaga acttcagggt gagtctatgg
+     1321 gacgcttgat gttttctttc cccttctttt ctatggttaa gttcatgtca taggaagggg
+     1381 ataagtaata gggtacagtt tagaatggga aacagacgaa tgattgcatc agtgtggaag
+     1441 tctcaggatc gttttagttt cttttatttg ctgttcataa caattgtttt cttttgttta
+     1501 attcttgctt tctttttttt tcttctccgc aatttttact attatactta atgccttaac
+     1561 attgtgtata acaaaaggaa atatctctga gatacattaa gtaacttaaa aaaaaacttt
+     1621 acacagtctg cctagtacat tactatttgg aatatatgtg tgcttatttg catattcata
+     1681 atctccctac tttattttct tttattttta attgatacat aatcattata catatttatg
+     1741 ggttaaagtg taatgtttta atatgtgtac acatattgac caaatcaggg taattttgca
+     1801 tttgtaattt taaaaaatgc tttcttcttt taatatactt ttttgtttat cttatttcta
+     1861 atactttccc taatctcttt ctttcagggc aataatgata caatgtatca tgcctctttg
+     1921 caccattcta aagaataaca gtgataattt ctgggttaag gcaatagcaa tatctctgca
+     1981 tataaatatt tctgcatata aattgtaact gatgtaagag gtttcatatt gctaatagca
+     2041 gctacaatcc agctaccatt ctgcttttat tttatggttg ggataaggct ggattattct
+     2101 gagtccaagc taggcccttt tgctaatcat gttcatacct cttatcttcc tcccacagct
+     2161 cctgggcaac gtgctggtct gtgtgctggc ccatcacttt ggcaaagaat tcaccccacc
+     2221 agtgcaggct gcctatcaga aagtggtggc tggtgtggct aatgccctgg cccacaagta
+     2281 tcactaagct cgctttcttg ctgtccaatt tctattaaag gttcctttgt tccctaagtc
+     2341 caactactaa actgggggat attatgaagg gccttgagca tctggattct gcctaataaa
+     2401 aaacatttat tttcattgca atgatgtatt taaattattt ctgaatattt tactaaaaag
+     2461 ggaatgtggg aggtcagtgc atttaaaaca taaagaaatg aagagctagt tcaaaccttc
+     2521 ggaaaataca ctatatctta aactccatga aagaaggtga ggctgcaaac agctaatgca
+     2581 cattggcaac agccctgatg catatgcctt attcatccct cagaaaagga ttcaagtaga
+     2641 ggcttgattt ggaggttaaa gttttgctat gctgtatttt acattactta ttgttttagc
+     2701 tgtcctcatg aatgtctttt cactacccat ttgcttatcc tgcatctctc agccttgact
+     2761 ccactcagtt ctcttgctta gagataccac ctttcccctg aagtgttcct tccatgtttt
+     2821 acggcgagat ggtttctcct cgcctggcca ctcagcctta gttgtctctg ttgtcttata
+     2881 gaggtctact tgaagaagga aaaacagggg tcatggtttg actgtcctgt gagcccttct
+     2941 tccctgcctc ccccactcac agtgacccgg aatctgcagt gctagtctcc cggaactatc
+//
+
+LOCUS       HUMBETGLON              3000 bp    DNA     linear   PRI 26-AUG-1994
+DEFINITION  Human haplotype C2 beta-globin gene, complete cds.
+ACCESSION   L26475
+VERSION     L26475.1
+KEYWORDS    beta-globin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3000)
+  AUTHORS   Fullerton,S.M., Harding,R.M., Boyce,A.J. and Clegg,J.B.
+  TITLE     Molecular and population genetic analysis of allelic sequence
+            diversity at the human beta-globin locus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (5), 1805-1809 (1994)
+   PUBMED   7907422
+FEATURES             Location/Qualifiers
+     source          1..3000
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /haplotype="C2"
+                     /note="sequence found in a Melanesian population"
+     variation       111
+                     /replace="c"
+     variation       263
+                     /note="Rsa I polymorphism"
+                     /replace="c"
+     variation       273
+                     /replace="t"
+     variation       285..286
+                     /note="2 bp insertion"
+                     /replace="at"
+     variation       286
+                     /replace="t"
+     variation       293..294
+                     /note="1 bp deletion of C or 2 bp deletion of CT"
+                     /replace=""
+     variation       345
+                     /replace="t"
+     variation       474
+                     /replace="t"
+     variation       498
+                     /replace="c"
+     CDS             join(864..955,1086..1308,2159..2287)
+                     /codon_start=1
+                     /product="beta-globin"
+                     /protein_id="AAA21113.1"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+     exon            <864..955
+                     /number=1
+     variation       872
+                     /replace="c"
+     intron          956..1085
+                     /number=1
+     exon            1086..1308
+                     /number=2
+     intron          1309..2158
+                     /number=2
+     variation       1324
+                     /note="Ava II polymorphism"
+                     /replace="c"
+     variation       1382
+                     /replace="g"
+     variation       1389
+                     /replace="t"
+     variation       1974
+                     /replace="t"
+     exon            2159..>2287
+                     /number=3
+     variation       2520
+                     /replace="c"
+     variation       2600
+                     /replace="a"
+     variation       2602
+                     /replace="c"
+     variation       2758
+                     /note="Hinf I polymorphism"
+                     /replace="t"
+     variation       2911
+                     /replace="g"
+ORIGIN      
+        1 acctcctatt tgacaccact gattacccca ttgatagtca cactttgggt tgtaagtgac
+       61 tttttattta tttgtatttt tgactgcatt aagaggtctc tagtttttta tctcttgttt
+      121 cccaaaacct aataagtaac taatgcacag agcacattga tttgtattta ttctattttt
+      181 agacataatt tattagcatg catgagcaaa ttaagaaaaa caacaacaaa tgaatgcata
+      241 tatatgtata tgtatgtgtg tatatataca cacatatata tatatatttt ttcttttctt
+      301 accagaaggt tttaatccaa ataaggagaa gatatgctta gaaccgaggt agagttttca
+      361 tccattctgt cctgtaagta ttttgcatat tctggagacg caggaagaga tccatctaca
+      421 tatcccaaag ctgaattatg gtagacaaaa ctcttccact tttagtgcat caacttctta
+      481 tttgtgtaat aagaaaattg ggaaaacgat cttcaatatg cttaccaagc tgtgattcca
+      541 aatattacgt aaatacactt gcaaaggagg atgtttttag tagcaatttg tactgatggt
+      601 atggggccaa gagatatatc ttagagggag ggctgagggt ttgaagtcca actcctaagc
+      661 cagtgccaga agagccaagg acaggtacgg ctgtcatcac ttagacctca ccctgtggag
+      721 ccacacccta gggttggcca atctactccc aggagcaggg agggcaggag ccagggctgg
+      781 gcataaaagt cagggcagag ccatctattg cttacatttg cttctgacac aactgtgttc
+      841 actagcaacc tcaaacagac accatggtgc atctgactcc tgaggagaag tctgccgtta
+      901 ctgccctgtg gggcaaggtg aacgtggatg aagttggtgg tgaggccctg ggcaggttgg
+      961 tatcaaggtt acaagacagg tttaaggaga ccaatagaaa ctgggcatgt ggagacagag
+     1021 aagactcttg ggtttctgat aggcactgac tctctctgcc tattggtcta ttttcccacc
+     1081 cttaggctgc tggtggtcta cccttggacc cagaggttct ttgagtcctt tggggatctg
+     1141 tccactcctg atgctgttat gggcaaccct aaggtgaagg ctcatggcaa gaaagtgctc
+     1201 ggtgccttta gtgatggcct ggctcacctg gacaacctca agggcacctt tgccacactg
+     1261 agtgagctgc actgtgacaa gctgcacgtg gatcctgaga acttcagggt gagtctatgg
+     1321 gacgcttgat gttttctttc cccttctttt ctatggttaa gttcatgtca taggaagggg
+     1381 ataagtaaca gggtacagtt tagaatggga aacagacgaa tgattgcatc agtgtggaag
+     1441 tctcaggatc gttttagttt cttttatttg ctgttcataa caattgtttt cttttgttta
+     1501 attcttgctt tctttttttt tcttctccgc aatttttact attatactta atgccttaac
+     1561 attgtgtata acaaaaggaa atatctctga gatacattaa gtaacttaaa aaaaaacttt
+     1621 acacagtctg cctagtacat tactatttgg aatatatgtg tgcttatttg catattcata
+     1681 atctccctac tttattttct tttattttta attgatacat aatcattata catatttatg
+     1741 ggttaaagtg taatgtttta atatgtgtac acatattgac caaatcaggg taattttgca
+     1801 tttgtaattt taaaaaatgc tttcttcttt taatatactt ttttgtttat cttatttcta
+     1861 atactttccc taatctcttt ctttcagggc aataatgata caatgtatca tgcctctttg
+     1921 caccattcta aagaataaca gtgataattt ctgggttaag gcaatagcaa tatctctgca
+     1981 tataaatatt tctgcatata aattgtaact gatgtaagag gtttcatatt gctaatagca
+     2041 gctacaatcc agctaccatt ctgcttttat tttatggttg ggataaggct ggattattct
+     2101 gagtccaagc taggcccttt tgctaatcat gttcatacct cttatcttcc tcccacagct
+     2161 cctgggcaac gtgctggtct gtgtgctggc ccatcacttt ggcaaagaat tcaccccacc
+     2221 agtgcaggct gcctatcaga aagtggtggc tggtgtggct aatgccctgg cccacaagta
+     2281 tcactaagct cgctttcttg ctgtccaatt tctattaaag gttcctttgt tccctaagtc
+     2341 caactactaa actgggggat attatgaagg gccttgagca tctggattct gcctaataaa
+     2401 aaacatttat tttcattgca atgatgtatt taaattattt ctgaatattt tactaaaaag
+     2461 ggaatgtggg aggtcagtgc atttaaaaca taaagaaatg aagagctagt tcaaaccttg
+     2521 ggaaaataca ctatatctta aactccatga aagaaggtga ggctgcaaac agctaatgca
+     2581 cattggcaac agccctgatg catatgcctt attcatccct cagaaaagga ttcaagtaga
+     2641 ggcttgattt ggaggttaaa gttttgctat gctgtatttt acattactta ttgttttagc
+     2701 tgtcctcatg aatgtctttt cactacccat ttgcttatcc tgcatctctc agccttgact
+     2761 ccactcagtt ctcttgctta gagataccac ctttcccctg aagtgttcct tccatgtttt
+     2821 acggcgagat ggtttctcct cgcctggcca ctcagcctta gttgtctctg ttgtcttata
+     2881 gaggtctact tgaagaagga aaaacagggg tcatggtttg actgtcctgt gagcccttct
+     2941 tccctgcctc ccccactcac agtgacccgg aatctgcagt gctagtctcc cggaactatc
+//
+
+LOCUS       HUMBETGLOM              2999 bp    DNA     linear   PRI 26-AUG-1994
+DEFINITION  Human haplotype C3 beta-globin gene, complete cds.
+ACCESSION   L26474
+VERSION     L26474.1
+KEYWORDS    beta-globin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 2999)
+  AUTHORS   Fullerton,S.M., Harding,R.M., Boyce,A.J. and Clegg,J.B.
+  TITLE     Molecular and population genetic analysis of allelic sequence
+            diversity at the human beta-globin locus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (5), 1805-1809 (1994)
+   PUBMED   7907422
+FEATURES             Location/Qualifiers
+     source          1..2999
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /haplotype="C3"
+                     /note="sequence found in a Melanesian population"
+     variation       111
+                     /replace="c"
+     variation       263
+                     /note="Rsa I polymorphism"
+                     /replace="c"
+     variation       273
+                     /replace="c"
+     variation       285..286
+                     /note="2 bp insertion"
+                     /replace="at"
+     variation       286
+                     /replace="t"
+     variation       293..294
+                     /note="1 bp deletion"
+                     /replace="c"
+     variation       344
+                     /replace="c"
+     variation       473
+                     /replace="t"
+     variation       497
+                     /replace="c"
+     CDS             join(863..954,1085..1307,2158..2286)
+                     /codon_start=1
+                     /product="beta-globin"
+                     /protein_id="AAA21112.1"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+     exon            <863..954
+                     /number=1
+     variation       871
+                     /replace="c"
+     intron          955..1084
+                     /number=1
+     exon            1085..1307
+                     /number=2
+     intron          1308..2157
+                     /number=2
+     variation       1323
+                     /note="Ava II polymorphism"
+                     /replace="c"
+     variation       1381
+                     /replace="g"
+     variation       1388
+                     /replace="t"
+     variation       1973
+                     /replace="t"
+     exon            2158..>2286
+                     /number=3
+     variation       2519
+                     /replace="c"
+     variation       2599
+                     /replace="g"
+     variation       2601
+                     /replace="c"
+     variation       2757
+                     /note="Hinf I polymorphism"
+                     /replace="t"
+     variation       2910
+                     /replace="g"
+ORIGIN      
+        1 acctcctatt tgacaccact gattacccca ttgatagtca cactttgggt tgtaagtgac
+       61 tttttattta tttgtatttt tgactgcatt aagaggtctc tagtttttta tctcttgttt
+      121 cccaaaacct aataagtaac taatgcacag agcacattga tttgtattta ttctattttt
+      181 agacataatt tattagcatg catgagcaaa ttaagaaaaa caacaacaaa tgaatgcata
+      241 tatatgtata tgtatgtgtg tatatataca catatatata tatatatttt ttttttctta
+      301 ccagaaggtt ttaatccaaa taaggagaag atatgcttag aactgaggta gagttttcat
+      361 ccattctgtc ctgtaagtat tttgcatatt ctggagacgc aggaagagat ccatctacat
+      421 atcccaaagc tgaattatgg tagacaaaac tcttccactt ttagtgcatc aacttcttat
+      481 ttgtgtaata agaaaattgg gaaaacgatc ttcaatatgc ttaccaagct gtgattccaa
+      541 atattacgta aatacacttg caaaggagga tgtttttagt agcaatttgt actgatggta
+      601 tggggccaag agatatatct tagagggagg gctgagggtt tgaagtccaa ctcctaagcc
+      661 agtgccagaa gagccaagga caggtacggc tgtcatcact tagacctcac cctgtggagc
+      721 cacaccctag ggttggccaa tctactccca ggagcaggga gggcaggagc cagggctggg
+      781 cataaaagtc agggcagagc catctattgc ttacatttgc ttctgacaca actgtgttca
+      841 ctagcaacct caaacagaca ccatggtgca tctgactcct gaggagaagt ctgccgttac
+      901 tgccctgtgg ggcaaggtga acgtggatga agttggtggt gaggccctgg gcaggttggt
+      961 atcaaggtta caagacaggt ttaaggagac caatagaaac tgggcatgtg gagacagaga
+     1021 agactcttgg gtttctgata ggcactgact ctctctgcct attggtctat tttcccaccc
+     1081 ttaggctgct ggtggtctac ccttggaccc agaggttctt tgagtccttt ggggatctgt
+     1141 ccactcctga tgctgttatg ggcaacccta aggtgaaggc tcatggcaag aaagtgctcg
+     1201 gtgcctttag tgatggcctg gctcacctgg acaacctcaa gggcaccttt gccacactga
+     1261 gtgagctgca ctgtgacaag ctgcacgtgg atcctgagaa cttcagggtg agtctatggg
+     1321 acgcttgatg ttttctttcc ccttcttttc tatggttaag ttcatgtcat aggaagggga
+     1381 taagtaacag ggtacagttt agaatgggaa acagacgaat gattgcatca gtgtggaagt
+     1441 ctcaggatcg ttttagtttc ttttatttgc tgttcataac aattgttttc ttttgtttaa
+     1501 ttcttgcttt cttttttttt cttctccgca atttttacta ttatacttaa tgccttaaca
+     1561 ttgtgtataa caaaaggaaa tatctctgag atacattaag taacttaaaa aaaaacttta
+     1621 cacagtctgc ctagtacatt actatttgga atatatgtgt gcttatttgc atattcataa
+     1681 tctccctact ttattttctt ttatttttaa ttgatacata atcattatac atatttatgg
+     1741 gttaaagtgt aatgttttaa tatgtgtaca catattgacc aaatcagggt aattttgcat
+     1801 ttgtaatttt aaaaaatgct ttcttctttt aatatacttt tttgtttatc ttatttctaa
+     1861 tactttccct aatctctttc tttcagggca ataatgatac aatgtatcat gcctctttgc
+     1921 accattctaa agaataacag tgataatttc tgggttaagg caatagcaat atctctgcat
+     1981 ataaatattt ctgcatataa attgtaactg atgtaagagg tttcatattg ctaatagcag
+     2041 ctacaatcca gctaccattc tgcttttatt ttatggttgg gataaggctg gattattctg
+     2101 agtccaagct aggccctttt gctaatcatg ttcatacctc ttatcttcct cccacagctc
+     2161 ctgggcaacg tgctggtctg tgtgctggcc catcactttg gcaaagaatt caccccacca
+     2221 gtgcaggctg cctatcagaa agtggtggct ggtgtggcta atgccctggc ccacaagtat
+     2281 cactaagctc gctttcttgc tgtccaattt ctattaaagg ttcctttgtt ccctaagtcc
+     2341 aactactaaa ctgggggata ttatgaaggg ccttgagcat ctggattctg cctaataaaa
+     2401 aacatttatt ttcattgcaa tgatgtattt aaattatttc tgaatatttt actaaaaagg
+     2461 gaatgtggga ggtcagtgca tttaaaacat aaagaaatga agagctagtt caaaccttgg
+     2521 gaaaatacac tatatcttaa actccatgaa agaaggtgag gctgcaaaca gctaatgcac
+     2581 attggcaaca gccctgatac atatgcctta ttcatccctc agaaaaggat tcaagtagag
+     2641 gcttgatttg gaggttaaag ttttgctatg ctgtatttta cattacttat tgttttagct
+     2701 gtcctcatga atgtcttttc actacccatt tgcttatcct gcatctctca gccttgactc
+     2761 cactcagttc tcttgcttag agataccacc tttcccctga agtgttcctt ccatgtttta
+     2821 cggcgagatg gtttctcctc gcctggccac tcagccttag ttgtctctgt tgtcttatag
+     2881 aggtctactt gaagaaggaa aaacaggggt catggtttga ctgtcctgtg agcccttctt
+     2941 ccctgcctcc cccactcaca gtgacccgga atctgcagtg ctagtctccc ggaactatc
+//
+
+LOCUS       HUMBETGLOL              3000 bp    DNA     linear   PRI 26-AUG-1994
+DEFINITION  Human haplotype C1 beta-globin gene, complete cds.
+ACCESSION   L26473
+VERSION     L26473.1
+KEYWORDS    beta-globin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3000)
+  AUTHORS   Fullerton,S.M., Harding,R.M., Boyce,A.J. and Clegg,J.B.
+  TITLE     Molecular and population genetic analysis of allelic sequence
+            diversity at the human beta-globin locus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (5), 1805-1809 (1994)
+   PUBMED   7907422
+FEATURES             Location/Qualifiers
+     source          1..3000
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /haplotype="C1"
+                     /note="sequence found in a Melanesian population"
+     variation       111
+                     /replace="c"
+     variation       263
+                     /note="Rsa I polymorphism"
+                     /replace="c"
+     variation       273
+                     /replace="c"
+     variation       285..286
+                     /note="2 bp insertion"
+                     /replace="at"
+     variation       286
+                     /replace="t"
+     variation       293..294
+                     /note="1 bp deletion of C or 2 bp deletion of CT"
+                     /replace=""
+     variation       345
+                     /replace="t"
+     variation       474
+                     /replace="t"
+     variation       498
+                     /replace="c"
+     CDS             join(864..955,1086..1308,2159..2287)
+                     /codon_start=1
+                     /product="beta-globin"
+                     /protein_id="AAA21111.1"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+     exon            <864..955
+                     /number=1
+     variation       872
+                     /replace="c"
+     intron          956..1085
+                     /number=1
+     exon            1086..1308
+                     /number=2
+     intron          1309..2158
+                     /number=2
+     variation       1324
+                     /note="Ava II polymorphism"
+                     /replace="c"
+     variation       1382
+                     /replace="g"
+     variation       1389
+                     /replace="t"
+     variation       1974
+                     /replace="t"
+     exon            2159..>2287
+                     /number=3
+     variation       2520
+                     /replace="c"
+     variation       2600
+                     /replace="a"
+     variation       2602
+                     /replace="c"
+     variation       2758
+                     /note="Hinf I polymorphism"
+                     /replace="t"
+     variation       2911
+                     /replace="g"
+ORIGIN      
+        1 acctcctatt tgacaccact gattacccca ttgatagtca cactttgggt tgtaagtgac
+       61 tttttattta tttgtatttt tgactgcatt aagaggtctc tagtttttta tctcttgttt
+      121 cccaaaacct aataagtaac taatgcacag agcacattga tttgtattta ttctattttt
+      181 agacataatt tattagcatg catgagcaaa ttaagaaaaa caacaacaaa tgaatgcata
+      241 tatatgtata tgtatgtgtg tatatataca catatatata tatatatttt ttcttttctt
+      301 accagaaggt tttaatccaa ataaggagaa gatatgctta gaaccgaggt agagttttca
+      361 tccattctgt cctgtaagta ttttgcatat tctggagacg caggaagaga tccatctaca
+      421 tatcccaaag ctgaattatg gtagacaaaa ctcttccact tttagtgcat caacttctta
+      481 tttgtgtaat aagaaaattg ggaaaacgat cttcaatatg cttaccaagc tgtgattcca
+      541 aatattacgt aaatacactt gcaaaggagg atgtttttag tagcaatttg tactgatggt
+      601 atggggccaa gagatatatc ttagagggag ggctgagggt ttgaagtcca actcctaagc
+      661 cagtgccaga agagccaagg acaggtacgg ctgtcatcac ttagacctca ccctgtggag
+      721 ccacacccta gggttggcca atctactccc aggagcaggg agggcaggag ccagggctgg
+      781 gcataaaagt cagggcagag ccatctattg cttacatttg cttctgacac aactgtgttc
+      841 actagcaacc tcaaacagac accatggtgc atctgactcc tgaggagaag tctgccgtta
+      901 ctgccctgtg gggcaaggtg aacgtggatg aagttggtgg tgaggccctg ggcaggttgg
+      961 tatcaaggtt acaagacagg tttaaggaga ccaatagaaa ctgggcatgt ggagacagag
+     1021 aagactcttg ggtttctgat aggcactgac tctctctgcc tattggtcta ttttcccacc
+     1081 cttaggctgc tggtggtcta cccttggacc cagaggttct ttgagtcctt tggggatctg
+     1141 tccactcctg atgctgttat gggcaaccct aaggtgaagg ctcatggcaa gaaagtgctc
+     1201 ggtgccttta gtgatggcct ggctcacctg gacaacctca agggcacctt tgccacactg
+     1261 agtgagctgc actgtgacaa gctgcacgtg gatcctgaga acttcagggt gagtctatgg
+     1321 gacgcttgat gttttctttc cccttctttt ctatggttaa gttcatgtca taggaagggg
+     1381 ataagtaaca gggtacagtt tagaatggga aacagacgaa tgattgcatc agtgtggaag
+     1441 tctcaggatc gttttagttt cttttatttg ctgttcataa caattgtttt cttttgttta
+     1501 attcttgctt tctttttttt tcttctccgc aatttttact attatactta atgccttaac
+     1561 attgtgtata acaaaaggaa atatctctga gatacattaa gtaacttaaa aaaaaacttt
+     1621 acacagtctg cctagtacat tactatttgg aatatatgtg tgcttatttg catattcata
+     1681 atctccctac tttattttct tttattttta attgatacat aatcattata catatttatg
+     1741 ggttaaagtg taatgtttta atatgtgtac acatattgac caaatcaggg taattttgca
+     1801 tttgtaattt taaaaaatgc tttcttcttt taatatactt ttttgtttat cttatttcta
+     1861 atactttccc taatctcttt ctttcagggc aataatgata caatgtatca tgcctctttg
+     1921 caccattcta aagaataaca gtgataattt ctgggttaag gcaatagcaa tatctctgca
+     1981 tataaatatt tctgcatata aattgtaact gatgtaagag gtttcatatt gctaatagca
+     2041 gctacaatcc agctaccatt ctgcttttat tttatggttg ggataaggct ggattattct
+     2101 gagtccaagc taggcccttt tgctaatcat gttcatacct cttatcttcc tcccacagct
+     2161 cctgggcaac gtgctggtct gtgtgctggc ccatcacttt ggcaaagaat tcaccccacc
+     2221 agtgcaggct gcctatcaga aagtggtggc tggtgtggct aatgccctgg cccacaagta
+     2281 tcactaagct cgctttcttg ctgtccaatt tctattaaag gttcctttgt tccctaagtc
+     2341 caactactaa actgggggat attatgaagg gccttgagca tctggattct gcctaataaa
+     2401 aaacatttat tttcattgca atgatgtatt taaattattt ctgaatattt tactaaaaag
+     2461 ggaatgtggg aggtcagtgc atttaaaaca taaagaaatg aagagctagt tcaaaccttg
+     2521 ggaaaataca ctatatctta aactccatga aagaaggtga ggctgcaaac agctaatgca
+     2581 cattggcaac agccctgatg catatgcctt attcatccct cagaaaagga ttcaagtaga
+     2641 ggcttgattt ggaggttaaa gttttgctat gctgtatttt acattactta ttgttttagc
+     2701 tgtcctcatg aatgtctttt cactacccat ttgcttatcc tgcatctctc agccttgact
+     2761 ccactcagtt ctcttgctta gagataccac ctttcccctg aagtgttcct tccatgtttt
+     2821 acggcgagat ggtttctcct cgcctggcca ctcagcctta gttgtctctg ttgtcttata
+     2881 gaggtctact tgaagaagga aaaacagggg tcatggtttg actgtcctgt gagcccttct
+     2941 tccctgcctc ccccactcac agtgacccgg aatctgcagt gctagtctcc cggaactatc
+//
+
+LOCUS       HUMBETGLOK              3000 bp    DNA     linear   PRI 26-AUG-1994
+DEFINITION  Human haplotype B6 beta-globin gene, complete cds.
+ACCESSION   L26472
+VERSION     L26472.1
+KEYWORDS    beta-globin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3000)
+  AUTHORS   Fullerton,S.M., Harding,R.M., Boyce,A.J. and Clegg,J.B.
+  TITLE     Molecular and population genetic analysis of allelic sequence
+            diversity at the human beta-globin locus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (5), 1805-1809 (1994)
+   PUBMED   7907422
+FEATURES             Location/Qualifiers
+     source          1..3000
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /haplotype="B6"
+                     /note="sequence found in a Melanesian population"
+     variation       111
+                     /replace="c"
+     variation       263
+                     /note="Rsa I polymorphism"
+                     /replace="c"
+     variation       273
+                     /replace="c"
+     variation       286..287
+                     /note="2 bp insertion of AT"
+                     /replace=""
+     variation       288
+                     /replace="t"
+     variation       295..296
+                     /note="2 bp deletion"
+                     /replace="ct"
+     variation       345
+                     /replace="c"
+     variation       474
+                     /replace="t"
+     variation       498
+                     /replace="c"
+     CDS             join(864..955,1086..1308,2159..2287)
+                     /codon_start=1
+                     /product="beta-globin"
+                     /protein_id="AAA21110.1"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+     exon            <864..955
+                     /number=1
+     variation       872
+                     /replace="t"
+     intron          956..1085
+                     /number=1
+     exon            1086..1308
+                     /number=2
+     intron          1309..2158
+                     /number=2
+     variation       1324
+                     /note="Ava II polymorphism"
+                     /replace="g"
+     variation       1382
+                     /replace="g"
+     variation       1389
+                     /replace="t"
+     variation       1974
+                     /replace="c"
+     exon            2159..>2287
+                     /number=3
+     variation       2520
+                     /replace="c"
+     variation       2600
+                     /replace="a"
+     variation       2602
+                     /replace="a"
+     variation       2758
+                     /note="Hinf I polymorphism"
+                     /replace="a"
+     variation       2911
+                     /replace="g"
+ORIGIN      
+        1 acctcctatt tgacaccact gattacccca ttgatagtca cactttgggt tgtaagtgac
+       61 tttttattta tttgtatttt tgactgcatt aagaggtctc tagtttttta tctcttgttt
+      121 cccaaaacct aataagtaac taatgcacag agcacattga tttgtattta ttctattttt
+      181 agacataatt tattagcatg catgagcaaa ttaagaaaaa caacaacaaa tgaatgcata
+      241 tatatgtata tgtatgtgtg tatatataca catatatata tatatatatt tttttttctt
+      301 accagaaggt tttaatccaa ataaggagaa gatatgctta gaactgaggt agagttttca
+      361 tccattctgt cctgtaagta ttttgcatat tctggagacg caggaagaga tccatctaca
+      421 tatcccaaag ctgaattatg gtagacaaaa ctcttccact tttagtgcat caacttctta
+      481 tttgtgtaat aagaaaattg ggaaaacgat cttcaatatg cttaccaagc tgtgattcca
+      541 aatattacgt aaatacactt gcaaaggagg atgtttttag tagcaatttg tactgatggt
+      601 atggggccaa gagatatatc ttagagggag ggctgagggt ttgaagtcca actcctaagc
+      661 cagtgccaga agagccaagg acaggtacgg ctgtcatcac ttagacctca ccctgtggag
+      721 ccacacccta gggttggcca atctactccc aggagcaggg agggcaggag ccagggctgg
+      781 gcataaaagt cagggcagag ccatctattg cttacatttg cttctgacac aactgtgttc
+      841 actagcaacc tcaaacagac accatggtgc acctgactcc tgaggagaag tctgccgtta
+      901 ctgccctgtg gggcaaggtg aacgtggatg aagttggtgg tgaggccctg ggcaggttgg
+      961 tatcaaggtt acaagacagg tttaaggaga ccaatagaaa ctgggcatgt ggagacagag
+     1021 aagactcttg ggtttctgat aggcactgac tctctctgcc tattggtcta ttttcccacc
+     1081 cttaggctgc tggtggtcta cccttggacc cagaggttct ttgagtcctt tggggatctg
+     1141 tccactcctg atgctgttat gggcaaccct aaggtgaagg ctcatggcaa gaaagtgctc
+     1201 ggtgccttta gtgatggcct ggctcacctg gacaacctca agggcacctt tgccacactg
+     1261 agtgagctgc actgtgacaa gctgcacgtg gatcctgaga acttcagggt gagtctatgg
+     1321 gacccttgat gttttctttc cccttctttt ctatggttaa gttcatgtca taggaagggg
+     1381 ataagtaaca gggtacagtt tagaatggga aacagacgaa tgattgcatc agtgtggaag
+     1441 tctcaggatc gttttagttt cttttatttg ctgttcataa caattgtttt cttttgttta
+     1501 attcttgctt tctttttttt tcttctccgc aatttttact attatactta atgccttaac
+     1561 attgtgtata acaaaaggaa atatctctga gatacattaa gtaacttaaa aaaaaacttt
+     1621 acacagtctg cctagtacat tactatttgg aatatatgtg tgcttatttg catattcata
+     1681 atctccctac tttattttct tttattttta attgatacat aatcattata catatttatg
+     1741 ggttaaagtg taatgtttta atatgtgtac acatattgac caaatcaggg taattttgca
+     1801 tttgtaattt taaaaaatgc tttcttcttt taatatactt ttttgtttat cttatttcta
+     1861 atactttccc taatctcttt ctttcagggc aataatgata caatgtatca tgcctctttg
+     1921 caccattcta aagaataaca gtgataattt ctgggttaag gcaatagcaa tatttctgca
+     1981 tataaatatt tctgcatata aattgtaact gatgtaagag gtttcatatt gctaatagca
+     2041 gctacaatcc agctaccatt ctgcttttat tttatggttg ggataaggct ggattattct
+     2101 gagtccaagc taggcccttt tgctaatcat gttcatacct cttatcttcc tcccacagct
+     2161 cctgggcaac gtgctggtct gtgtgctggc ccatcacttt ggcaaagaat tcaccccacc
+     2221 agtgcaggct gcctatcaga aagtggtggc tggtgtggct aatgccctgg cccacaagta
+     2281 tcactaagct cgctttcttg ctgtccaatt tctattaaag gttcctttgt tccctaagtc
+     2341 caactactaa actgggggat attatgaagg gccttgagca tctggattct gcctaataaa
+     2401 aaacatttat tttcattgca atgatgtatt taaattattt ctgaatattt tactaaaaag
+     2461 ggaatgtggg aggtcagtgc atttaaaaca taaagaaatg aagagctagt tcaaaccttg
+     2521 ggaaaataca ctatatctta aactccatga aagaaggtga ggctgcaaac agctaatgca
+     2581 cattggcaac agccctgatg cctatgcctt attcatccct cagaaaagga ttcaagtaga
+     2641 ggcttgattt ggaggttaaa gttttgctat gctgtatttt acattactta ttgttttagc
+     2701 tgtcctcatg aatgtctttt cactacccat ttgcttatcc tgcatctctc agccttgtct
+     2761 ccactcagtt ctcttgctta gagataccac ctttcccctg aagtgttcct tccatgtttt
+     2821 acggcgagat ggtttctcct cgcctggcca ctcagcctta gttgtctctg ttgtcttata
+     2881 gaggtctact tgaagaagga aaaacagggg tcatggtttg actgtcctgt gagcccttct
+     2941 tccctgcctc ccccactcac agtgacccgg aatctgcagt gctagtctcc cggaactatc
+//
+
+LOCUS       HUMBETGLOJ              3000 bp    DNA     linear   PRI 26-AUG-1994
+DEFINITION  Human haplotype B5 beta-globin gene, complete cds.
+ACCESSION   L26471
+VERSION     L26471.1
+KEYWORDS    beta-globin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3000)
+  AUTHORS   Fullerton,S.M., Harding,R.M., Boyce,A.J. and Clegg,J.B.
+  TITLE     Molecular and population genetic analysis of allelic sequence
+            diversity at the human beta-globin locus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (5), 1805-1809 (1994)
+   PUBMED   7907422
+FEATURES             Location/Qualifiers
+     source          1..3000
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /haplotype="B5"
+                     /note="sequence found in a Melanesian population"
+     variation       111
+                     /replace="c"
+     variation       263
+                     /note="Rsa I polymorphism"
+                     /replace="c"
+     variation       273
+                     /replace="c"
+     variation       285..286
+                     /note="2 bp insertion"
+                     /replace="at"
+     variation       286
+                     /replace="t"
+     variation       293..294
+                     /note="1 bp deletion of C or 2 bp deletion of CT"
+                     /replace=""
+     variation       345
+                     /replace="t"
+     variation       474
+                     /replace="c"
+     variation       498
+                     /replace="c"
+     CDS             join(864..955,1086..1308,2159..2287)
+                     /codon_start=1
+                     /product="beta-globin"
+                     /protein_id="AAA21109.1"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+     exon            <864..955
+                     /number=1
+     variation       872
+                     /replace="t"
+     intron          956..1085
+                     /number=1
+     exon            1086..1308
+                     /number=2
+     intron          1309..2158
+                     /number=2
+     variation       1324
+                     /note="Ava II polymorphism"
+                     /replace="g"
+     variation       1382
+                     /replace="g"
+     variation       1389
+                     /replace="t"
+     variation       1974
+                     /replace="c"
+     exon            2159..>2287
+                     /number=3
+     variation       2520
+                     /replace="c"
+     variation       2600
+                     /replace="a"
+     variation       2602
+                     /replace="a"
+     variation       2758
+                     /note="Hinf I polymorphism"
+                     /replace="a"
+     variation       2911
+                     /replace="g"
+ORIGIN      
+        1 acctcctatt tgacaccact gattacccca ttgatagtca cactttgggt tgtaagtgac
+       61 tttttattta tttgtatttt tgactgcatt aagaggtctc tagtttttta tctcttgttt
+      121 cccaaaacct aataagtaac taatgcacag agcacattga tttgtattta ttctattttt
+      181 agacataatt tattagcatg catgagcaaa ttaagaaaaa caacaacaaa tgaatgcata
+      241 tatatgtata tgtatgtgtg tatatataca catatatata tatatatttt ttcttttctt
+      301 accagaaggt tttaatccaa ataaggagaa gatatgctta gaaccgaggt agagttttca
+      361 tccattctgt cctgtaagta ttttgcatat tctggagacg caggaagaga tccatctaca
+      421 tatcccaaag ctgaattatg gtagacaaaa ctcttccact tttagtgcat caatttctta
+      481 tttgtgtaat aagaaaattg ggaaaacgat cttcaatatg cttaccaagc tgtgattcca
+      541 aatattacgt aaatacactt gcaaaggagg atgtttttag tagcaatttg tactgatggt
+      601 atggggccaa gagatatatc ttagagggag ggctgagggt ttgaagtcca actcctaagc
+      661 cagtgccaga agagccaagg acaggtacgg ctgtcatcac ttagacctca ccctgtggag
+      721 ccacacccta gggttggcca atctactccc aggagcaggg agggcaggag ccagggctgg
+      781 gcataaaagt cagggcagag ccatctattg cttacatttg cttctgacac aactgtgttc
+      841 actagcaacc tcaaacagac accatggtgc acctgactcc tgaggagaag tctgccgtta
+      901 ctgccctgtg gggcaaggtg aacgtggatg aagttggtgg tgaggccctg ggcaggttgg
+      961 tatcaaggtt acaagacagg tttaaggaga ccaatagaaa ctgggcatgt ggagacagag
+     1021 aagactcttg ggtttctgat aggcactgac tctctctgcc tattggtcta ttttcccacc
+     1081 cttaggctgc tggtggtcta cccttggacc cagaggttct ttgagtcctt tggggatctg
+     1141 tccactcctg atgctgttat gggcaaccct aaggtgaagg ctcatggcaa gaaagtgctc
+     1201 ggtgccttta gtgatggcct ggctcacctg gacaacctca agggcacctt tgccacactg
+     1261 agtgagctgc actgtgacaa gctgcacgtg gatcctgaga acttcagggt gagtctatgg
+     1321 gacccttgat gttttctttc cccttctttt ctatggttaa gttcatgtca taggaagggg
+     1381 ataagtaaca gggtacagtt tagaatggga aacagacgaa tgattgcatc agtgtggaag
+     1441 tctcaggatc gttttagttt cttttatttg ctgttcataa caattgtttt cttttgttta
+     1501 attcttgctt tctttttttt tcttctccgc aatttttact attatactta atgccttaac
+     1561 attgtgtata acaaaaggaa atatctctga gatacattaa gtaacttaaa aaaaaacttt
+     1621 acacagtctg cctagtacat tactatttgg aatatatgtg tgcttatttg catattcata
+     1681 atctccctac tttattttct tttattttta attgatacat aatcattata catatttatg
+     1741 ggttaaagtg taatgtttta atatgtgtac acatattgac caaatcaggg taattttgca
+     1801 tttgtaattt taaaaaatgc tttcttcttt taatatactt ttttgtttat cttatttcta
+     1861 atactttccc taatctcttt ctttcagggc aataatgata caatgtatca tgcctctttg
+     1921 caccattcta aagaataaca gtgataattt ctgggttaag gcaatagcaa tatttctgca
+     1981 tataaatatt tctgcatata aattgtaact gatgtaagag gtttcatatt gctaatagca
+     2041 gctacaatcc agctaccatt ctgcttttat tttatggttg ggataaggct ggattattct
+     2101 gagtccaagc taggcccttt tgctaatcat gttcatacct cttatcttcc tcccacagct
+     2161 cctgggcaac gtgctggtct gtgtgctggc ccatcacttt ggcaaagaat tcaccccacc
+     2221 agtgcaggct gcctatcaga aagtggtggc tggtgtggct aatgccctgg cccacaagta
+     2281 tcactaagct cgctttcttg ctgtccaatt tctattaaag gttcctttgt tccctaagtc
+     2341 caactactaa actgggggat attatgaagg gccttgagca tctggattct gcctaataaa
+     2401 aaacatttat tttcattgca atgatgtatt taaattattt ctgaatattt tactaaaaag
+     2461 ggaatgtggg aggtcagtgc atttaaaaca taaagaaatg aagagctagt tcaaaccttg
+     2521 ggaaaataca ctatatctta aactccatga aagaaggtga ggctgcaaac agctaatgca
+     2581 cattggcaac agccctgatg cctatgcctt attcatccct cagaaaagga ttcaagtaga
+     2641 ggcttgattt ggaggttaaa gttttgctat gctgtatttt acattactta ttgttttagc
+     2701 tgtcctcatg aatgtctttt cactacccat ttgcttatcc tgcatctctc agccttgtct
+     2761 ccactcagtt ctcttgctta gagataccac ctttcccctg aagtgttcct tccatgtttt
+     2821 acggcgagat ggtttctcct cgcctggcca ctcagcctta gttgtctctg ttgtcttata
+     2881 gaggtctact tgaagaagga aaaacagggg tcatggtttg actgtcctgt gagcccttct
+     2941 tccctgcctc ccccactcac agtgacccgg aatctgcagt gctagtctcc cggaactatc
+//
+
+LOCUS       HUMBETGLOI              3000 bp    DNA     linear   PRI 26-AUG-1994
+DEFINITION  Human haplotype B4 beta-globin gene, complete cds.
+ACCESSION   L26470
+VERSION     L26470.1
+KEYWORDS    beta-globin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3000)
+  AUTHORS   Fullerton,S.M., Harding,R.M., Boyce,A.J. and Clegg,J.B.
+  TITLE     Molecular and population genetic analysis of allelic sequence
+            diversity at the human beta-globin locus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (5), 1805-1809 (1994)
+   PUBMED   7907422
+FEATURES             Location/Qualifiers
+     source          1..3000
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /haplotype="B4"
+                     /note="sequence found in a Melanesian population"
+     variation       111
+                     /replace="t"
+     variation       263
+                     /note="Rsa I polymorphism"
+                     /replace="t"
+     variation       273
+                     /replace="c"
+     variation       285..286
+                     /note="2 bp insertion"
+                     /replace="at"
+     variation       286
+                     /replace="a"
+     variation       293..294
+                     /note="1 bp deletion of C or 2 bp deletion of CT"
+                     /replace=""
+     variation       345
+                     /replace="c"
+     variation       474
+                     /replace="c"
+     variation       498
+                     /replace="c"
+     CDS             join(864..955,1086..1308,2159..2287)
+                     /codon_start=1
+                     /product="beta-globin"
+                     /protein_id="AAA21108.1"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+     exon            <864..955
+                     /number=1
+     variation       872
+                     /replace="t"
+     intron          956..1085
+                     /note="1"
+     exon            1086..1308
+                     /number=2
+     intron          1309..2158
+                     /number=2
+     variation       1324
+                     /note="Ava II polymorphism"
+                     /replace="g"
+     variation       1382
+                     /replace="g"
+     variation       1389
+                     /replace="t"
+     variation       1974
+                     /replace="c"
+     exon            2159..>2287
+                     /number=3
+     variation       2520
+                     /replace="c"
+     variation       2600
+                     /replace="a"
+     variation       2602
+                     /replace="a"
+     variation       2758
+                     /note="Hinf I polymorphism"
+                     /replace="a"
+     variation       2911
+                     /replace="g"
+ORIGIN      
+        1 acctcctatt tgacaccact gattacccca ttgatagtca cactttgggt tgtaagtgac
+       61 tttttattta tttgtatttt tgactgcatt aagaggtctc tagtttttta cctcttgttt
+      121 cccaaaacct aataagtaac taatgcacag agcacattga tttgtattta ttctattttt
+      181 agacataatt tattagcatg catgagcaaa ttaagaaaaa caacaacaaa tgaatgcata
+      241 tatatgtata tgtatgtgtg tacatataca catatatata tatatttttt ttcttttctt
+      301 accagaaggt tttaatccaa ataaggagaa gatatgctta gaactgaggt agagttttca
+      361 tccattctgt cctgtaagta ttttgcatat tctggagacg caggaagaga tccatctaca
+      421 tatcccaaag ctgaattatg gtagacaaaa ctcttccact tttagtgcat caatttctta
+      481 tttgtgtaat aagaaaattg ggaaaacgat cttcaatatg cttaccaagc tgtgattcca
+      541 aatattacgt aaatacactt gcaaaggagg atgtttttag tagcaatttg tactgatggt
+      601 atggggccaa gagatatatc ttagagggag ggctgagggt ttgaagtcca actcctaagc
+      661 cagtgccaga agagccaagg acaggtacgg ctgtcatcac ttagacctca ccctgtggag
+      721 ccacacccta gggttggcca atctactccc aggagcaggg agggcaggag ccagggctgg
+      781 gcataaaagt cagggcagag ccatctattg cttacatttg cttctgacac aactgtgttc
+      841 actagcaacc tcaaacagac accatggtgc acctgactcc tgaggagaag tctgccgtta
+      901 ctgccctgtg gggcaaggtg aacgtggatg aagttggtgg tgaggccctg ggcaggttgg
+      961 tatcaaggtt acaagacagg tttaaggaga ccaatagaaa ctgggcatgt ggagacagag
+     1021 aagactcttg ggtttctgat aggcactgac tctctctgcc tattggtcta ttttcccacc
+     1081 cttaggctgc tggtggtcta cccttggacc cagaggttct ttgagtcctt tggggatctg
+     1141 tccactcctg atgctgttat gggcaaccct aaggtgaagg ctcatggcaa gaaagtgctc
+     1201 ggtgccttta gtgatggcct ggctcacctg gacaacctca agggcacctt tgccacactg
+     1261 agtgagctgc actgtgacaa gctgcacgtg gatcctgaga acttcagggt gagtctatgg
+     1321 gacccttgat gttttctttc cccttctttt ctatggttaa gttcatgtca taggaagggg
+     1381 ataagtaaca gggtacagtt tagaatggga aacagacgaa tgattgcatc agtgtggaag
+     1441 tctcaggatc gttttagttt cttttatttg ctgttcataa caattgtttt cttttgttta
+     1501 attcttgctt tctttttttt tcttctccgc aatttttact attatactta atgccttaac
+     1561 attgtgtata acaaaaggaa atatctctga gatacattaa gtaacttaaa aaaaaacttt
+     1621 acacagtctg cctagtacat tactatttgg aatatatgtg tgcttatttg catattcata
+     1681 atctccctac tttattttct tttattttta attgatacat aatcattata catatttatg
+     1741 ggttaaagtg taatgtttta atatgtgtac acatattgac caaatcaggg taattttgca
+     1801 tttgtaattt taaaaaatgc tttcttcttt taatatactt ttttgtttat cttatttcta
+     1861 atactttccc taatctcttt ctttcagggc aataatgata caatgtatca tgcctctttg
+     1921 caccattcta aagaataaca gtgataattt ctgggttaag gcaatagcaa tatttctgca
+     1981 tataaatatt tctgcatata aattgtaact gatgtaagag gtttcatatt gctaatagca
+     2041 gctacaatcc agctaccatt ctgcttttat tttatggttg ggataaggct ggattattct
+     2101 gagtccaagc taggcccttt tgctaatcat gttcatacct cttatcttcc tcccacagct
+     2161 cctgggcaac gtgctggtct gtgtgctggc ccatcacttt ggcaaagaat tcaccccacc
+     2221 agtgcaggct gcctatcaga aagtggtggc tggtgtggct aatgccctgg cccacaagta
+     2281 tcactaagct cgctttcttg ctgtccaatt tctattaaag gttcctttgt tccctaagtc
+     2341 caactactaa actgggggat attatgaagg gccttgagca tctggattct gcctaataaa
+     2401 aaacatttat tttcattgca atgatgtatt taaattattt ctgaatattt tactaaaaag
+     2461 ggaatgtggg aggtcagtgc atttaaaaca taaagaaatg aagagctagt tcaaaccttg
+     2521 ggaaaataca ctatatctta aactccatga aagaaggtga ggctgcaaac agctaatgca
+     2581 cattggcaac agccctgatg cctatgcctt attcatccct cagaaaagga ttcaagtaga
+     2641 ggcttgattt ggaggttaaa gttttgctat gctgtatttt acattactta ttgttttagc
+     2701 tgtcctcatg aatgtctttt cactacccat ttgcttatcc tgcatctctc agccttgtct
+     2761 ccactcagtt ctcttgctta gagataccac ctttcccctg aagtgttcct tccatgtttt
+     2821 acggcgagat ggtttctcct cgcctggcca ctcagcctta gttgtctctg ttgtcttata
+     2881 gaggtctact tgaagaagga aaaacagggg tcatggtttg actgtcctgt gagcccttct
+     2941 tccctgcctc ccccactcac agtgacccgg aatctgcagt gctagtctcc cggaactatc
+//
+
+LOCUS       HUMBETGLOH              3002 bp    DNA     linear   PRI 26-AUG-1994
+DEFINITION  Human haplotype B3 beta-globin gene, complete cds.
+ACCESSION   L26469
+VERSION     L26469.1
+KEYWORDS    beta-globin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3002)
+  AUTHORS   Fullerton,S.M., Harding,R.M., Boyce,A.J. and Clegg,J.B.
+  TITLE     Molecular and population genetic analysis of allelic sequence
+            diversity at the human beta-globin locus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (5), 1805-1809 (1994)
+   PUBMED   7907422
+FEATURES             Location/Qualifiers
+     source          1..3002
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /haplotype="B3"
+                     /note="sequence found in a Melanesian population"
+     variation       111
+                     /replace="t"
+     variation       263
+                     /note="Rsa I polymorphism"
+                     /replace="t"
+     variation       273
+                     /replace="c"
+     variation       286..287
+                     /note="2 bp insertion of AT"
+                     /replace=""
+     variation       288
+                     /replace="a"
+     variation       295..296
+                     /note="1 bp deletion of C or 2 bp deletion of CT"
+                     /replace=""
+     variation       347
+                     /replace="c"
+     variation       476
+                     /replace="c"
+     variation       500
+                     /replace="c"
+     CDS             join(866..957,1088..1310,2161..2289)
+                     /codon_start=1
+                     /product="beta-globin"
+                     /protein_id="AAA21107.1"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+     exon            <866..957
+                     /number=1
+     variation       874
+                     /replace="t"
+     intron          958..1087
+                     /number=1
+     exon            1088..1310
+                     /number=2
+     intron          1311..2160
+                     /number=2
+     variation       1326
+                     /note="Ava II polymorphism"
+                     /replace="g"
+     variation       1384
+                     /replace="g"
+     variation       1391
+                     /replace="t"
+     variation       1976
+                     /replace="c"
+     exon            2161..>2289
+                     /number=3
+     variation       2522
+                     /replace="c"
+     variation       2602
+                     /replace="a"
+     variation       2604
+                     /replace="a"
+     variation       2760
+                     /note="Hinf I polymorphism"
+                     /replace="a"
+     variation       2913
+                     /replace="g"
+ORIGIN      
+        1 acctcctatt tgacaccact gattacccca ttgatagtca cactttgggt tgtaagtgac
+       61 tttttattta tttgtatttt tgactgcatt aagaggtctc tagtttttta cctcttgttt
+      121 cccaaaacct aataagtaac taatgcacag agcacattga tttgtattta ttctattttt
+      181 agacataatt tattagcatg catgagcaaa ttaagaaaaa caacaacaaa tgaatgcata
+      241 tatatgtata tgtatgtgtg tacatataca catatatata tatatatttt ttttcttttc
+      301 ttaccagaag gttttaatcc aaataaggag aagatatgct tagaactgag gtagagtttt
+      361 catccattct gtcctgtaag tattttgcat attctggaga cgcaggaaga gatccatcta
+      421 catatcccaa agctgaatta tggtagacaa aactcttcca cttttagtgc atcaatttct
+      481 tatttgtgta ataagaaaat tgggaaaacg atcttcaata tgcttaccaa gctgtgattc
+      541 caaatattac gtaaatacac ttgcaaagga ggatgttttt agtagcaatt tgtactgatg
+      601 gtatggggcc aagagatata tcttagaggg agggctgagg gtttgaagtc caactcctaa
+      661 gccagtgcca gaagagccaa ggacaggtac ggctgtcatc acttagacct caccctgtgg
+      721 agccacaccc tagggttggc caatctactc ccaggagcag ggagggcagg agccagggct
+      781 gggcataaaa gtcagggcag agccatctat tgcttacatt tgcttctgac acaactgtgt
+      841 tcactagcaa cctcaaacag acaccatggt gcacctgact cctgaggaga agtctgccgt
+      901 tactgccctg tggggcaagg tgaacgtgga tgaagttggt ggtgaggccc tgggcaggtt
+      961 ggtatcaagg ttacaagaca ggtttaagga gaccaataga aactgggcat gtggagacag
+     1021 agaagactct tgggtttctg ataggcactg actctctctg cctattggtc tattttccca
+     1081 cccttaggct gctggtggtc tacccttgga cccagaggtt ctttgagtcc tttggggatc
+     1141 tgtccactcc tgatgctgtt atgggcaacc ctaaggtgaa ggctcatggc aagaaagtgc
+     1201 tcggtgcctt tagtgatggc ctggctcacc tggacaacct caagggcacc tttgccacac
+     1261 tgagtgagct gcactgtgac aagctgcacg tggatcctga gaacttcagg gtgagtctat
+     1321 gggacccttg atgttttctt tccccttctt ttctatggtt aagttcatgt cataggaagg
+     1381 ggataagtaa cagggtacag tttagaatgg gaaacagacg aatgattgca tcagtgtgga
+     1441 agtctcagga tcgttttagt ttcttttatt tgctgttcat aacaattgtt ttcttttgtt
+     1501 taattcttgc tttctttttt tttcttctcc gcaattttta ctattatact taatgcctta
+     1561 acattgtgta taacaaaagg aaatatctct gagatacatt aagtaactta aaaaaaaact
+     1621 ttacacagtc tgcctagtac attactattt ggaatatatg tgtgcttatt tgcatattca
+     1681 taatctccct actttatttt cttttatttt taattgatac ataatcatta tacatattta
+     1741 tgggttaaag tgtaatgttt taatatgtgt acacatattg accaaatcag ggtaattttg
+     1801 catttgtaat tttaaaaaat gctttcttct tttaatatac ttttttgttt atcttatttc
+     1861 taatactttc cctaatctct ttctttcagg gcaataatga tacaatgtat catgcctctt
+     1921 tgcaccattc taaagaataa cagtgataat ttctgggtta aggcaatagc aatatttctg
+     1981 catataaata tttctgcata taaattgtaa ctgatgtaag aggtttcata ttgctaatag
+     2041 cagctacaat ccagctacca ttctgctttt attttatggt tgggataagg ctggattatt
+     2101 ctgagtccaa gctaggccct tttgctaatc atgttcatac ctcttatctt cctcccacag
+     2161 ctcctgggca acgtgctggt ctgtgtgctg gcccatcact ttggcaaaga attcacccca
+     2221 ccagtgcagg ctgcctatca gaaagtggtg gctggtgtgg ctaatgccct ggcccacaag
+     2281 tatcactaag ctcgctttct tgctgtccaa tttctattaa aggttccttt gttccctaag
+     2341 tccaactact aaactggggg atattatgaa gggccttgag catctggatt ctgcctaata
+     2401 aaaaacattt attttcattg caatgatgta tttaaattat ttctgaatat tttactaaaa
+     2461 agggaatgtg ggaggtcagt gcatttaaaa cataaagaaa tgaagagcta gttcaaacct
+     2521 tgggaaaata cactatatct taaactccat gaaagaaggt gaggctgcaa acagctaatg
+     2581 cacattggca acagccctga tgcctatgcc ttattcatcc ctcagaaaag gattcaagta
+     2641 gaggcttgat ttggaggtta aagttttgct atgctgtatt ttacattact tattgtttta
+     2701 gctgtcctca tgaatgtctt ttcactaccc atttgcttat cctgcatctc tcagccttgt
+     2761 ctccactcag ttctcttgct tagagatacc acctttcccc tgaagtgttc cttccatgtt
+     2821 ttacggcgag atggtttctc ctcgcctggc cactcagcct tagttgtctc tgttgtctta
+     2881 tagaggtcta cttgaagaag gaaaaacagg ggtcatggtt tgactgtcct gtgagccctt
+     2941 cttccctgcc tcccccactc acagtgaccc ggaatctgca gtgctagtct cccggaacta
+     3001 tc
+//
+
+LOCUS       HUMBETGLOG              3002 bp    DNA     linear   PRI 26-AUG-1994
+DEFINITION  Human haplotype B2 beta-globin gene, complete cds.
+ACCESSION   L26468
+VERSION     L26468.1
+KEYWORDS    beta-globin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3002)
+  AUTHORS   Fullerton,S.M., Harding,R.M., Boyce,A.J. and Clegg,J.B.
+  TITLE     Molecular and population genetic analysis of allelic sequence
+            diversity at the human beta-globin locus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (5), 1805-1809 (1994)
+   PUBMED   7907422
+FEATURES             Location/Qualifiers
+     source          1..3002
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /haplotype="B2"
+                     /note="sequence found in a Melanesian population"
+     variation       111
+                     /replace="c"
+     variation       263
+                     /note="Rsa I polymorphism"
+                     /replace="t"
+     variation       273
+                     /replace="c"
+     variation       286..287
+                     /note="2 bp insertion of AT"
+                     /replace=""
+     variation       288
+                     /replace="t"
+     variation       295..296
+                     /note="1 bp deletion of C or 2 bp deletion of CT"
+                     /replace=""
+     variation       347
+                     /replace="c"
+     variation       476
+                     /replace="c"
+     variation       500
+                     /replace="c"
+     CDS             join(866..957,1088..1310,2161..2289)
+                     /codon_start=1
+                     /product="beta-globin"
+                     /protein_id="AAA21106.1"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+     exon            <866..957
+                     /number=1
+     variation       874
+                     /replace="t"
+     intron          958..1087
+                     /number=1
+     exon            1088..1310
+                     /number=2
+     intron          1311..2160
+                     /number=2
+     variation       1326
+                     /note="Ava II polymorphism"
+                     /replace="g"
+     variation       1384
+                     /replace="g"
+     variation       1391
+                     /replace="t"
+     variation       1976
+                     /replace="c"
+     exon            2161..>2289
+                     /number=3
+     variation       2522
+                     /replace="c"
+     variation       2602
+                     /replace="a"
+     variation       2604
+                     /replace="a"
+     variation       2760
+                     /note="Hinf I polymorphism"
+                     /replace="a"
+     variation       2913
+                     /replace="g"
+ORIGIN      
+        1 acctcctatt tgacaccact gattacccca ttgatagtca cactttgggt tgtaagtgac
+       61 tttttattta tttgtatttt tgactgcatt aagaggtctc tagtttttta tctcttgttt
+      121 cccaaaacct aataagtaac taatgcacag agcacattga tttgtattta ttctattttt
+      181 agacataatt tattagcatg catgagcaaa ttaagaaaaa caacaacaaa tgaatgcata
+      241 tatatgtata tgtatgtgtg tacatataca catatatata tatatatatt ttttcttttc
+      301 ttaccagaag gttttaatcc aaataaggag aagatatgct tagaactgag gtagagtttt
+      361 catccattct gtcctgtaag tattttgcat attctggaga cgcaggaaga gatccatcta
+      421 catatcccaa agctgaatta tggtagacaa aactcttcca cttttagtgc atcaatttct
+      481 tatttgtgta ataagaaaat tgggaaaacg atcttcaata tgcttaccaa gctgtgattc
+      541 caaatattac gtaaatacac ttgcaaagga ggatgttttt agtagcaatt tgtactgatg
+      601 gtatggggcc aagagatata tcttagaggg agggctgagg gtttgaagtc caactcctaa
+      661 gccagtgcca gaagagccaa ggacaggtac ggctgtcatc acttagacct caccctgtgg
+      721 agccacaccc tagggttggc caatctactc ccaggagcag ggagggcagg agccagggct
+      781 gggcataaaa gtcagggcag agccatctat tgcttacatt tgcttctgac acaactgtgt
+      841 tcactagcaa cctcaaacag acaccatggt gcacctgact cctgaggaga agtctgccgt
+      901 tactgccctg tggggcaagg tgaacgtgga tgaagttggt ggtgaggccc tgggcaggtt
+      961 ggtatcaagg ttacaagaca ggtttaagga gaccaataga aactgggcat gtggagacag
+     1021 agaagactct tgggtttctg ataggcactg actctctctg cctattggtc tattttccca
+     1081 cccttaggct gctggtggtc tacccttgga cccagaggtt ctttgagtcc tttggggatc
+     1141 tgtccactcc tgatgctgtt atgggcaacc ctaaggtgaa ggctcatggc aagaaagtgc
+     1201 tcggtgcctt tagtgatggc ctggctcacc tggacaacct caagggcacc tttgccacac
+     1261 tgagtgagct gcactgtgac aagctgcacg tggatcctga gaacttcagg gtgagtctat
+     1321 gggacccttg atgttttctt tccccttctt ttctatggtt aagttcatgt cataggaagg
+     1381 ggataagtaa cagggtacag tttagaatgg gaaacagacg aatgattgca tcagtgtgga
+     1441 agtctcagga tcgttttagt ttcttttatt tgctgttcat aacaattgtt ttcttttgtt
+     1501 taattcttgc tttctttttt tttcttctcc gcaattttta ctattatact taatgcctta
+     1561 acattgtgta taacaaaagg aaatatctct gagatacatt aagtaactta aaaaaaaact
+     1621 ttacacagtc tgcctagtac attactattt ggaatatatg tgtgcttatt tgcatattca
+     1681 taatctccct actttatttt cttttatttt taattgatac ataatcatta tacatattta
+     1741 tgggttaaag tgtaatgttt taatatgtgt acacatattg accaaatcag ggtaattttg
+     1801 catttgtaat tttaaaaaat gctttcttct tttaatatac ttttttgttt atcttatttc
+     1861 taatactttc cctaatctct ttctttcagg gcaataatga tacaatgtat catgcctctt
+     1921 tgcaccattc taaagaataa cagtgataat ttctgggtta aggcaatagc aatatttctg
+     1981 catataaata tttctgcata taaattgtaa ctgatgtaag aggtttcata ttgctaatag
+     2041 cagctacaat ccagctacca ttctgctttt attttatggt tgggataagg ctggattatt
+     2101 ctgagtccaa gctaggccct tttgctaatc atgttcatac ctcttatctt cctcccacag
+     2161 ctcctgggca acgtgctggt ctgtgtgctg gcccatcact ttggcaaaga attcacccca
+     2221 ccagtgcagg ctgcctatca gaaagtggtg gctggtgtgg ctaatgccct ggcccacaag
+     2281 tatcactaag ctcgctttct tgctgtccaa tttctattaa aggttccttt gttccctaag
+     2341 tccaactact aaactggggg atattatgaa gggccttgag catctggatt ctgcctaata
+     2401 aaaaacattt attttcattg caatgatgta tttaaattat ttctgaatat tttactaaaa
+     2461 agggaatgtg ggaggtcagt gcatttaaaa cataaagaaa tgaagagcta gttcaaacct
+     2521 tgggaaaata cactatatct taaactccat gaaagaaggt gaggctgcaa acagctaatg
+     2581 cacattggca acagccctga tgcctatgcc ttattcatcc ctcagaaaag gattcaagta
+     2641 gaggcttgat ttggaggtta aagttttgct atgctgtatt ttacattact tattgtttta
+     2701 gctgtcctca tgaatgtctt ttcactaccc atttgcttat cctgcatctc tcagccttgt
+     2761 ctccactcag ttctcttgct tagagatacc acctttcccc tgaagtgttc cttccatgtt
+     2821 ttacggcgag atggtttctc ctcgcctggc cactcagcct tagttgtctc tgttgtctta
+     2881 tagaggtcta cttgaagaag gaaaaacagg ggtcatggtt tgactgtcct gtgagccctt
+     2941 cttccctgcc tcccccactc acagtgaccc ggaatctgca gtgctagtct cccggaacta
+     3001 tc
+//
+
+LOCUS       HUMBETGLOF              3002 bp    DNA     linear   PRI 26-AUG-1994
+DEFINITION  Human haplotype B1 beta-globin gene, complete cds.
+ACCESSION   L26467
+VERSION     L26467.1
+KEYWORDS    beta-globin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3002)
+  AUTHORS   Fullerton,S.M., Harding,R.M., Boyce,A.J. and Clegg,J.B.
+  TITLE     Molecular and population genetic analysis of allelic sequence
+            diversity at the human beta-globin locus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (5), 1805-1809 (1994)
+   PUBMED   7907422
+FEATURES             Location/Qualifiers
+     source          1..3002
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /haplotype="B1"
+                     /note="sequence found in a Melanesian population"
+     variation       111
+                     /replace="t"
+     variation       263
+                     /note="Rsa I polymorphism"
+                     /replace="t"
+     variation       273
+                     /replace="c"
+     variation       286..287
+                     /note="2 bp insertion of AT"
+                     /replace=""
+     variation       288
+                     /replace="t"
+     variation       295..296
+                     /note="1 bp deletion of C or 2 bp deletion of CT"
+                     /replace=""
+     variation       347
+                     /replace="c"
+     variation       476
+                     /replace="c"
+     variation       500
+                     /replace="c"
+     CDS             join(866..957,1088..1310,2161..2289)
+                     /codon_start=1
+                     /product="beta-globin"
+                     /protein_id="AAA21105.1"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+     exon            <866..957
+                     /number=1
+     variation       874
+                     /replace="t"
+     intron          958..1087
+                     /number=1
+     exon            1088..1310
+                     /number=2
+     intron          1311..2160
+                     /number=2
+     variation       1326
+                     /note="Ava II polymorphism"
+                     /replace="g"
+     variation       1384
+                     /replace="g"
+     variation       1391
+                     /replace="t"
+     variation       1976
+                     /replace="c"
+     exon            2161..>2289
+                     /number=3
+     variation       2522
+                     /replace="c"
+     variation       2602
+                     /replace="a"
+     variation       2604
+                     /replace="a"
+     variation       2760
+                     /note="Hinf I polymorphism"
+                     /replace="a"
+     variation       2913
+                     /replace="g"
+ORIGIN      
+        1 acctcctatt tgacaccact gattacccca ttgatagtca cactttgggt tgtaagtgac
+       61 tttttattta tttgtatttt tgactgcatt aagaggtctc tagtttttta cctcttgttt
+      121 cccaaaacct aataagtaac taatgcacag agcacattga tttgtattta ttctattttt
+      181 agacataatt tattagcatg catgagcaaa ttaagaaaaa caacaacaaa tgaatgcata
+      241 tatatgtata tgtatgtgtg tacatataca catatatata tatatatatt ttttcttttc
+      301 ttaccagaag gttttaatcc aaataaggag aagatatgct tagaactgag gtagagtttt
+      361 catccattct gtcctgtaag tattttgcat attctggaga cgcaggaaga gatccatcta
+      421 catatcccaa agctgaatta tggtagacaa aactcttcca cttttagtgc atcaatttct
+      481 tatttgtgta ataagaaaat tgggaaaacg atcttcaata tgcttaccaa gctgtgattc
+      541 caaatattac gtaaatacac ttgcaaagga ggatgttttt agtagcaatt tgtactgatg
+      601 gtatggggcc aagagatata tcttagaggg agggctgagg gtttgaagtc caactcctaa
+      661 gccagtgcca gaagagccaa ggacaggtac ggctgtcatc acttagacct caccctgtgg
+      721 agccacaccc tagggttggc caatctactc ccaggagcag ggagggcagg agccagggct
+      781 gggcataaaa gtcagggcag agccatctat tgcttacatt tgcttctgac acaactgtgt
+      841 tcactagcaa cctcaaacag acaccatggt gcacctgact cctgaggaga agtctgccgt
+      901 tactgccctg tggggcaagg tgaacgtgga tgaagttggt ggtgaggccc tgggcaggtt
+      961 ggtatcaagg ttacaagaca ggtttaagga gaccaataga aactgggcat gtggagacag
+     1021 agaagactct tgggtttctg ataggcactg actctctctg cctattggtc tattttccca
+     1081 cccttaggct gctggtggtc tacccttgga cccagaggtt ctttgagtcc tttggggatc
+     1141 tgtccactcc tgatgctgtt atgggcaacc ctaaggtgaa ggctcatggc aagaaagtgc
+     1201 tcggtgcctt tagtgatggc ctggctcacc tggacaacct caagggcacc tttgccacac
+     1261 tgagtgagct gcactgtgac aagctgcacg tggatcctga gaacttcagg gtgagtctat
+     1321 gggacccttg atgttttctt tccccttctt ttctatggtt aagttcatgt cataggaagg
+     1381 ggataagtaa cagggtacag tttagaatgg gaaacagacg aatgattgca tcagtgtgga
+     1441 agtctcagga tcgttttagt ttcttttatt tgctgttcat aacaattgtt ttcttttgtt
+     1501 taattcttgc tttctttttt tttcttctcc gcaattttta ctattatact taatgcctta
+     1561 acattgtgta taacaaaagg aaatatctct gagatacatt aagtaactta aaaaaaaact
+     1621 ttacacagtc tgcctagtac attactattt ggaatatatg tgtgcttatt tgcatattca
+     1681 taatctccct actttatttt cttttatttt taattgatac ataatcatta tacatattta
+     1741 tgggttaaag tgtaatgttt taatatgtgt acacatattg accaaatcag ggtaattttg
+     1801 catttgtaat tttaaaaaat gctttcttct tttaatatac ttttttgttt atcttatttc
+     1861 taatactttc cctaatctct ttctttcagg gcaataatga tacaatgtat catgcctctt
+     1921 tgcaccattc taaagaataa cagtgataat ttctgggtta aggcaatagc aatatttctg
+     1981 catataaata tttctgcata taaattgtaa ctgatgtaag aggtttcata ttgctaatag
+     2041 cagctacaat ccagctacca ttctgctttt attttatggt tgggataagg ctggattatt
+     2101 ctgagtccaa gctaggccct tttgctaatc atgttcatac ctcttatctt cctcccacag
+     2161 ctcctgggca acgtgctggt ctgtgtgctg gcccatcact ttggcaaaga attcacccca
+     2221 ccagtgcagg ctgcctatca gaaagtggtg gctggtgtgg ctaatgccct ggcccacaag
+     2281 tatcactaag ctcgctttct tgctgtccaa tttctattaa aggttccttt gttccctaag
+     2341 tccaactact aaactggggg atattatgaa gggccttgag catctggatt ctgcctaata
+     2401 aaaaacattt attttcattg caatgatgta tttaaattat ttctgaatat tttactaaaa
+     2461 agggaatgtg ggaggtcagt gcatttaaaa cataaagaaa tgaagagcta gttcaaacct
+     2521 tgggaaaata cactatatct taaactccat gaaagaaggt gaggctgcaa acagctaatg
+     2581 cacattggca acagccctga tgcctatgcc ttattcatcc ctcagaaaag gattcaagta
+     2641 gaggcttgat ttggaggtta aagttttgct atgctgtatt ttacattact tattgtttta
+     2701 gctgtcctca tgaatgtctt ttcactaccc atttgcttat cctgcatctc tcagccttgt
+     2761 ctccactcag ttctcttgct tagagatacc acctttcccc tgaagtgttc cttccatgtt
+     2821 ttacggcgag atggtttctc ctcgcctggc cactcagcct tagttgtctc tgttgtctta
+     2881 tagaggtcta cttgaagaag gaaaaacagg ggtcatggtt tgactgtcct gtgagccctt
+     2941 cttccctgcc tcccccactc acagtgaccc ggaatctgca gtgctagtct cccggaacta
+     3001 tc
+//
+
+LOCUS       HUMBETGLOE              3000 bp    DNA     linear   PRI 26-AUG-1994
+DEFINITION  Human haplotype A4 beta-globin gene, complete cds.
+ACCESSION   L26466
+VERSION     L26466.1
+KEYWORDS    beta-globin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3000)
+  AUTHORS   Fullerton,S.M., Harding,R.M., Boyce,A.J. and Clegg,J.B.
+  TITLE     Molecular and population genetic analysis of allelic sequence
+            diversity at the human beta-globin locus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (5), 1805-1809 (1994)
+   PUBMED   7907422
+FEATURES             Location/Qualifiers
+     source          1..3000
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /haplotype="A4"
+                     /note="sequence found in a Melanesian population"
+     variation       111
+                     /replace="c"
+     variation       263
+                     /note="Rsa I polymorphism"
+                     /replace="c"
+     variation       273
+                     /replace="c"
+     variation       285..286
+                     /note="2 bp insertion"
+                     /replace="at"
+     variation       286
+                     /replace="a"
+     variation       293..294
+                     /note="1 bp deletion of C or 2 bp deletion of CT"
+                     /replace=""
+     variation       345
+                     /replace="c"
+     variation       474
+                     /replace="c"
+     variation       498
+                     /replace="c"
+     CDS             join(864..955,1086..1308,2159..2287)
+                     /codon_start=1
+                     /product="beta-globin"
+                     /protein_id="AAA21104.1"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+     exon            <864..955
+                     /number=1
+     variation       872
+                     /replace="t"
+     intron          956..1085
+                     /number=1
+     exon            1086..1308
+                     /number=2
+     intron          1309..2158
+                     /number=2
+     variation       1324
+                     /note="Ava II polymorphism"
+                     /replace="g"
+     variation       1382
+                     /replace="t"
+     variation       1389
+                     /replace="t"
+     variation       1974
+                     /replace="c"
+     exon            2159..>2287
+                     /number=3
+     variation       2520
+                     /replace="c"
+     variation       2600
+                     /replace="a"
+     variation       2602
+                     /replace="a"
+     variation       2758
+                     /note="Hinf I polymorphism"
+                     /replace="t"
+     variation       2911
+                     /replace="t"
+ORIGIN      
+        1 acctcctatt tgacaccact gattacccca ttgatagtca cactttgggt tgtaagtgac
+       61 tttttattta tttgtatttt tgactgcatt aagaggtctc tagtttttta tctcttgttt
+      121 cccaaaacct aataagtaac taatgcacag agcacattga tttgtattta ttctattttt
+      181 agacataatt tattagcatg catgagcaaa ttaagaaaaa caacaacaaa tgaatgcata
+      241 tatatgtata tgtatgtgtg tatatataca catatatata tatatttttt ttcttttctt
+      301 accagaaggt tttaatccaa ataaggagaa gatatgctta gaactgaggt agagttttca
+      361 tccattctgt cctgtaagta ttttgcatat tctggagacg caggaagaga tccatctaca
+      421 tatcccaaag ctgaattatg gtagacaaaa ctcttccact tttagtgcat caatttctta
+      481 tttgtgtaat aagaaaattg ggaaaacgat cttcaatatg cttaccaagc tgtgattcca
+      541 aatattacgt aaatacactt gcaaaggagg atgtttttag tagcaatttg tactgatggt
+      601 atggggccaa gagatatatc ttagagggag ggctgagggt ttgaagtcca actcctaagc
+      661 cagtgccaga agagccaagg acaggtacgg ctgtcatcac ttagacctca ccctgtggag
+      721 ccacacccta gggttggcca atctactccc aggagcaggg agggcaggag ccagggctgg
+      781 gcataaaagt cagggcagag ccatctattg cttacatttg cttctgacac aactgtgttc
+      841 actagcaacc tcaaacagac accatggtgc acctgactcc tgaggagaag tctgccgtta
+      901 ctgccctgtg gggcaaggtg aacgtggatg aagttggtgg tgaggccctg ggcaggttgg
+      961 tatcaaggtt acaagacagg tttaaggaga ccaatagaaa ctgggcatgt ggagacagag
+     1021 aagactcttg ggtttctgat aggcactgac tctctctgcc tattggtcta ttttcccacc
+     1081 cttaggctgc tggtggtcta cccttggacc cagaggttct ttgagtcctt tggggatctg
+     1141 tccactcctg atgctgttat gggcaaccct aaggtgaagg ctcatggcaa gaaagtgctc
+     1201 ggtgccttta gtgatggcct ggctcacctg gacaacctca agggcacctt tgccacactg
+     1261 agtgagctgc actgtgacaa gctgcacgtg gatcctgaga acttcagggt gagtctatgg
+     1321 gacccttgat gttttctttc cccttctttt ctatggttaa gttcatgtca taggaagggg
+     1381 agaagtaaca gggtacagtt tagaatggga aacagacgaa tgattgcatc agtgtggaag
+     1441 tctcaggatc gttttagttt cttttatttg ctgttcataa caattgtttt cttttgttta
+     1501 attcttgctt tctttttttt tcttctccgc aatttttact attatactta atgccttaac
+     1561 attgtgtata acaaaaggaa atatctctga gatacattaa gtaacttaaa aaaaaacttt
+     1621 acacagtctg cctagtacat tactatttgg aatatatgtg tgcttatttg catattcata
+     1681 atctccctac tttattttct tttattttta attgatacat aatcattata catatttatg
+     1741 ggttaaagtg taatgtttta atatgtgtac acatattgac caaatcaggg taattttgca
+     1801 tttgtaattt taaaaaatgc tttcttcttt taatatactt ttttgtttat cttatttcta
+     1861 atactttccc taatctcttt ctttcagggc aataatgata caatgtatca tgcctctttg
+     1921 caccattcta aagaataaca gtgataattt ctgggttaag gcaatagcaa tatttctgca
+     1981 tataaatatt tctgcatata aattgtaact gatgtaagag gtttcatatt gctaatagca
+     2041 gctacaatcc agctaccatt ctgcttttat tttatggttg ggataaggct ggattattct
+     2101 gagtccaagc taggcccttt tgctaatcat gttcatacct cttatcttcc tcccacagct
+     2161 cctgggcaac gtgctggtct gtgtgctggc ccatcacttt ggcaaagaat tcaccccacc
+     2221 agtgcaggct gcctatcaga aagtggtggc tggtgtggct aatgccctgg cccacaagta
+     2281 tcactaagct cgctttcttg ctgtccaatt tctattaaag gttcctttgt tccctaagtc
+     2341 caactactaa actgggggat attatgaagg gccttgagca tctggattct gcctaataaa
+     2401 aaacatttat tttcattgca atgatgtatt taaattattt ctgaatattt tactaaaaag
+     2461 ggaatgtggg aggtcagtgc atttaaaaca taaagaaatg aagagctagt tcaaaccttg
+     2521 ggaaaataca ctatatctta aactccatga aagaaggtga ggctgcaaac agctaatgca
+     2581 cattggcaac agccctgatg cctatgcctt attcatccct cagaaaagga ttcaagtaga
+     2641 ggcttgattt ggaggttaaa gttttgctat gctgtatttt acattactta ttgttttagc
+     2701 tgtcctcatg aatgtctttt cactacccat ttgcttatcc tgcatctctc agccttgact
+     2761 ccactcagtt ctcttgctta gagataccac ctttcccctg aagtgttcct tccatgtttt
+     2821 acggcgagat ggtttctcct cgcctggcca ctcagcctta gttgtctctg ttgtcttata
+     2881 gaggtctact tgaagaagga aaaacagggg gcatggtttg actgtcctgt gagcccttct
+     2941 tccctgcctc ccccactcac agtgacccgg aatctgcagt gctagtctcc cggaactatc
+//
+
+LOCUS       HUMBETGLOD              3002 bp    DNA     linear   PRI 26-AUG-1994
+DEFINITION  Human haplotype A3 beta-globin gene, complete cds.
+ACCESSION   L26465
+VERSION     L26465.1
+KEYWORDS    beta-globin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3002)
+  AUTHORS   Fullerton,S.M., Harding,R.M., Boyce,A.J. and Clegg,J.B.
+  TITLE     Molecular and population genetic analysis of allelic sequence
+            diversity at the human beta-globin locus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (5), 1805-1809 (1994)
+   PUBMED   7907422
+FEATURES             Location/Qualifiers
+     source          1..3002
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /haplotype="A3"
+                     /note="sequence found in a Melanesian population"
+     variation       111
+                     /replace="t"
+     variation       263
+                     /note="Rsa I polymorphism"
+                     /replace="t"
+     variation       273
+                     /replace="c"
+     variation       286..287
+                     /note="2 bp insertion of AT"
+                     /replace=""
+     variation       288
+                     /replace="t"
+     variation       295..296
+                     /note="1 bp deletion of C or 2 bp deletion of CT"
+                     /replace=""
+     variation       347
+                     /replace="c"
+     variation       476
+                     /replace="c"
+     variation       500
+                     /replace="t"
+     CDS             join(866..957,1088..1310,2161..2289)
+                     /codon_start=1
+                     /product="beta-globin"
+                     /protein_id="AAA21103.1"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+     exon            <866..957
+                     /number=1
+     variation       874
+                     /replace="t"
+     intron          958..1087
+                     /number=1
+     exon            1088..1310
+                     /number=2
+     intron          1311..2160
+                     /number=2
+     variation       1326
+                     /note="Ava II polymorphism"
+                     /replace="g"
+     variation       1384
+                     /replace="t"
+     variation       1391
+                     /replace="t"
+     variation       1976
+                     /replace="c"
+     exon            2161..>2289
+                     /number=3
+     variation       2522
+                     /replace="c"
+     variation       2602
+                     /replace="a"
+     variation       2604
+                     /replace="a"
+     variation       2760
+                     /note="Hinf I polymorphism"
+                     /replace="t"
+     variation       2913
+                     /replace="t"
+ORIGIN      
+        1 acctcctatt tgacaccact gattacccca ttgatagtca cactttgggt tgtaagtgac
+       61 tttttattta tttgtatttt tgactgcatt aagaggtctc tagtttttta cctcttgttt
+      121 cccaaaacct aataagtaac taatgcacag agcacattga tttgtattta ttctattttt
+      181 agacataatt tattagcatg catgagcaaa ttaagaaaaa caacaacaaa tgaatgcata
+      241 tatatgtata tgtatgtgtg tacatataca catatatata tatatatatt ttttcttttc
+      301 ttaccagaag gttttaatcc aaataaggag aagatatgct tagaactgag gtagagtttt
+      361 catccattct gtcctgtaag tattttgcat attctggaga cgcaggaaga gatccatcta
+      421 catatcccaa agctgaatta tggtagacaa aactcttcca cttttagtgc atcaatttct
+      481 tatttgtgta ataagaaaac tgggaaaacg atcttcaata tgcttaccaa gctgtgattc
+      541 caaatattac gtaaatacac ttgcaaagga ggatgttttt agtagcaatt tgtactgatg
+      601 gtatggggcc aagagatata tcttagaggg agggctgagg gtttgaagtc caactcctaa
+      661 gccagtgcca gaagagccaa ggacaggtac ggctgtcatc acttagacct caccctgtgg
+      721 agccacaccc tagggttggc caatctactc ccaggagcag ggagggcagg agccagggct
+      781 gggcataaaa gtcagggcag agccatctat tgcttacatt tgcttctgac acaactgtgt
+      841 tcactagcaa cctcaaacag acaccatggt gcacctgact cctgaggaga agtctgccgt
+      901 tactgccctg tggggcaagg tgaacgtgga tgaagttggt ggtgaggccc tgggcaggtt
+      961 ggtatcaagg ttacaagaca ggtttaagga gaccaataga aactgggcat gtggagacag
+     1021 agaagactct tgggtttctg ataggcactg actctctctg cctattggtc tattttccca
+     1081 cccttaggct gctggtggtc tacccttgga cccagaggtt ctttgagtcc tttggggatc
+     1141 tgtccactcc tgatgctgtt atgggcaacc ctaaggtgaa ggctcatggc aagaaagtgc
+     1201 tcggtgcctt tagtgatggc ctggctcacc tggacaacct caagggcacc tttgccacac
+     1261 tgagtgagct gcactgtgac aagctgcacg tggatcctga gaacttcagg gtgagtctat
+     1321 gggacccttg atgttttctt tccccttctt ttctatggtt aagttcatgt cataggaagg
+     1381 ggagaagtaa cagggtacag tttagaatgg gaaacagacg aatgattgca tcagtgtgga
+     1441 agtctcagga tcgttttagt ttcttttatt tgctgttcat aacaattgtt ttcttttgtt
+     1501 taattcttgc tttctttttt tttcttctcc gcaattttta ctattatact taatgcctta
+     1561 acattgtgta taacaaaagg aaatatctct gagatacatt aagtaactta aaaaaaaact
+     1621 ttacacagtc tgcctagtac attactattt ggaatatatg tgtgcttatt tgcatattca
+     1681 taatctccct actttatttt cttttatttt taattgatac ataatcatta tacatattta
+     1741 tgggttaaag tgtaatgttt taatatgtgt acacatattg accaaatcag ggtaattttg
+     1801 catttgtaat tttaaaaaat gctttcttct tttaatatac ttttttgttt atcttatttc
+     1861 taatactttc cctaatctct ttctttcagg gcaataatga tacaatgtat catgcctctt
+     1921 tgcaccattc taaagaataa cagtgataat ttctgggtta aggcaatagc aatatttctg
+     1981 catataaata tttctgcata taaattgtaa ctgatgtaag aggtttcata ttgctaatag
+     2041 cagctacaat ccagctacca ttctgctttt attttatggt tgggataagg ctggattatt
+     2101 ctgagtccaa gctaggccct tttgctaatc atgttcatac ctcttatctt cctcccacag
+     2161 ctcctgggca acgtgctggt ctgtgtgctg gcccatcact ttggcaaaga attcacccca
+     2221 ccagtgcagg ctgcctatca gaaagtggtg gctggtgtgg ctaatgccct ggcccacaag
+     2281 tatcactaag ctcgctttct tgctgtccaa tttctattaa aggttccttt gttccctaag
+     2341 tccaactact aaactggggg atattatgaa gggccttgag catctggatt ctgcctaata
+     2401 aaaaacattt attttcattg caatgatgta tttaaattat ttctgaatat tttactaaaa
+     2461 agggaatgtg ggaggtcagt gcatttaaaa cataaagaaa tgaagagcta gttcaaacct
+     2521 tgggaaaata cactatatct taaactccat gaaagaaggt gaggctgcaa acagctaatg
+     2581 cacattggca acagccctga tgcctatgcc ttattcatcc ctcagaaaag gattcaagta
+     2641 gaggcttgat ttggaggtta aagttttgct atgctgtatt ttacattact tattgtttta
+     2701 gctgtcctca tgaatgtctt ttcactaccc atttgcttat cctgcatctc tcagccttga
+     2761 ctccactcag ttctcttgct tagagatacc acctttcccc tgaagtgttc cttccatgtt
+     2821 ttacggcgag atggtttctc ctcgcctggc cactcagcct tagttgtctc tgttgtctta
+     2881 tagaggtcta cttgaagaag gaaaaacagg gggcatggtt tgactgtcct gtgagccctt
+     2941 cttccctgcc tcccccactc acagtgaccc ggaatctgca gtgctagtct cccggaacta
+     3001 tc
+//
+
+LOCUS       HUMBETGLOC              3002 bp    DNA     linear   PRI 26-AUG-1994
+DEFINITION  Human haplotype A2 beta-globin gene, complete cds.
+ACCESSION   L26464
+VERSION     L26464.1
+KEYWORDS    beta-globin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3002)
+  AUTHORS   Fullerton,S.M., Harding,R.M., Boyce,A.J. and Clegg,J.B.
+  TITLE     Molecular and population genetic analysis of allelic sequence
+            diversity at the human beta-globin locus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (5), 1805-1809 (1994)
+   PUBMED   7907422
+FEATURES             Location/Qualifiers
+     source          1..3002
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /haplotype="A2"
+                     /note="sequence found in a Melanesian population"
+     variation       111
+                     /replace="t"
+     variation       263
+                     /note="Rsa I polymorphism"
+                     /replace="t"
+     variation       273
+                     /replace="c"
+     variation       286..287
+                     /note="2 bp insertion of AT"
+                     /replace=""
+     variation       288
+                     /replace="t"
+     variation       295..296
+                     /note="1 bp deletion of C or 2 bp deletion of CT"
+                     /replace=""
+     variation       347
+                     /replace="c"
+     variation       476
+                     /replace="c"
+     variation       500
+                     /replace="c"
+     CDS             join(866..957,1088..1310,2161..2289)
+                     /codon_start=1
+                     /product="beta-globin"
+                     /protein_id="AAA21102.1"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+     exon            <866..957
+                     /number=1
+     variation       874
+                     /replace="t"
+     intron          958..1087
+                     /number=1
+     exon            1088..1310
+                     /number=2
+     intron          1311..2160
+                     /number=2
+     variation       1326
+                     /note="Ava II polymorphism"
+                     /replace="g"
+     variation       1384
+                     /replace="t"
+     variation       1391
+                     /replace="t"
+     variation       1976
+                     /replace="c"
+     exon            2161..>2289
+                     /number=3
+     variation       2522
+                     /replace="c"
+     variation       2602
+                     /replace="a"
+     variation       2604
+                     /replace="a"
+     variation       2760
+                     /note="Hinf I polymorphism"
+                     /replace="t"
+     variation       2913
+                     /replace="t"
+ORIGIN      
+        1 acctcctatt tgacaccact gattacccca ttgatagtca cactttgggt tgtaagtgac
+       61 tttttattta tttgtatttt tgactgcatt aagaggtctc tagtttttta cctcttgttt
+      121 cccaaaacct aataagtaac taatgcacag agcacattga tttgtattta ttctattttt
+      181 agacataatt tattagcatg catgagcaaa ttaagaaaaa caacaacaaa tgaatgcata
+      241 tatatgtata tgtatgtgtg tacatataca catatatata tatatatatt ttttcttttc
+      301 ttaccagaag gttttaatcc aaataaggag aagatatgct tagaactgag gtagagtttt
+      361 catccattct gtcctgtaag tattttgcat attctggaga cgcaggaaga gatccatcta
+      421 catatcccaa agctgaatta tggtagacaa aactcttcca cttttagtgc atcaatttct
+      481 tatttgtgta ataagaaaat tgggaaaacg atcttcaata tgcttaccaa gctgtgattc
+      541 caaatattac gtaaatacac ttgcaaagga ggatgttttt agtagcaatt tgtactgatg
+      601 gtatggggcc aagagatata tcttagaggg agggctgagg gtttgaagtc caactcctaa
+      661 gccagtgcca gaagagccaa ggacaggtac ggctgtcatc acttagacct caccctgtgg
+      721 agccacaccc tagggttggc caatctactc ccaggagcag ggagggcagg agccagggct
+      781 gggcataaaa gtcagggcag agccatctat tgcttacatt tgcttctgac acaactgtgt
+      841 tcactagcaa cctcaaacag acaccatggt gcacctgact cctgaggaga agtctgccgt
+      901 tactgccctg tggggcaagg tgaacgtgga tgaagttggt ggtgaggccc tgggcaggtt
+      961 ggtatcaagg ttacaagaca ggtttaagga gaccaataga aactgggcat gtggagacag
+     1021 agaagactct tgggtttctg ataggcactg actctctctg cctattggtc tattttccca
+     1081 cccttaggct gctggtggtc tacccttgga cccagaggtt ctttgagtcc tttggggatc
+     1141 tgtccactcc tgatgctgtt atgggcaacc ctaaggtgaa ggctcatggc aagaaagtgc
+     1201 tcggtgcctt tagtgatggc ctggctcacc tggacaacct caagggcacc tttgccacac
+     1261 tgagtgagct gcactgtgac aagctgcacg tggatcctga gaacttcagg gtgagtctat
+     1321 gggacccttg atgttttctt tccccttctt ttctatggtt aagttcatgt cataggaagg
+     1381 ggagaagtaa cagggtacag tttagaatgg gaaacagacg aatgattgca tcagtgtgga
+     1441 agtctcagga tcgttttagt ttcttttatt tgctgttcat aacaattgtt ttcttttgtt
+     1501 taattcttgc tttctttttt tttcttctcc gcaattttta ctattatact taatgcctta
+     1561 acattgtgta taacaaaagg aaatatctct gagatacatt aagtaactta aaaaaaaact
+     1621 ttacacagtc tgcctagtac attactattt ggaatatatg tgtgcttatt tgcatattca
+     1681 taatctccct actttatttt cttttatttt taattgatac ataatcatta tacatattta
+     1741 tgggttaaag tgtaatgttt taatatgtgt acacatattg accaaatcag ggtaattttg
+     1801 catttgtaat tttaaaaaat gctttcttct tttaatatac ttttttgttt atcttatttc
+     1861 taatactttc cctaatctct ttctttcagg gcaataatga tacaatgtat catgcctctt
+     1921 tgcaccattc taaagaataa cagtgataat ttctgggtta aggcaatagc aatatttctg
+     1981 catataaata tttctgcata taaattgtaa ctgatgtaag aggtttcata ttgctaatag
+     2041 cagctacaat ccagctacca ttctgctttt attttatggt tgggataagg ctggattatt
+     2101 ctgagtccaa gctaggccct tttgctaatc atgttcatac ctcttatctt cctcccacag
+     2161 ctcctgggca acgtgctggt ctgtgtgctg gcccatcact ttggcaaaga attcacccca
+     2221 ccagtgcagg ctgcctatca gaaagtggtg gctggtgtgg ctaatgccct ggcccacaag
+     2281 tatcactaag ctcgctttct tgctgtccaa tttctattaa aggttccttt gttccctaag
+     2341 tccaactact aaactggggg atattatgaa gggccttgag catctggatt ctgcctaata
+     2401 aaaaacattt attttcattg caatgatgta tttaaattat ttctgaatat tttactaaaa
+     2461 agggaatgtg ggaggtcagt gcatttaaaa cataaagaaa tgaagagcta gttcaaacct
+     2521 tgggaaaata cactatatct taaactccat gaaagaaggt gaggctgcaa acagctaatg
+     2581 cacattggca acagccctga tgcctatgcc ttattcatcc ctcagaaaag gattcaagta
+     2641 gaggcttgat ttggaggtta aagttttgct atgctgtatt ttacattact tattgtttta
+     2701 gctgtcctca tgaatgtctt ttcactaccc atttgcttat cctgcatctc tcagccttga
+     2761 ctccactcag ttctcttgct tagagatacc acctttcccc tgaagtgttc cttccatgtt
+     2821 ttacggcgag atggtttctc ctcgcctggc cactcagcct tagttgtctc tgttgtctta
+     2881 tagaggtcta cttgaagaag gaaaaacagg gggcatggtt tgactgtcct gtgagccctt
+     2941 cttccctgcc tcccccactc acagtgaccc ggaatctgca gtgctagtct cccggaacta
+     3001 tc
+//
+
+LOCUS       HUMBETGLOB              3000 bp    DNA     linear   PRI 26-AUG-1994
+DEFINITION  Human haplotype A1 beta-globin gene, complete cds.
+ACCESSION   L26463
+VERSION     L26463.1
+KEYWORDS    beta-globin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3000)
+  AUTHORS   Fullerton,S.M., Harding,R.M., Boyce,A.J. and Clegg,J.B.
+  TITLE     Molecular and population genetic analysis of allelic sequence
+            diversity at the human beta-globin locus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (5), 1805-1809 (1994)
+   PUBMED   7907422
+FEATURES             Location/Qualifiers
+     source          1..3000
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /haplotype="A1"
+                     /note="sequence found in a Melanesian population"
+     variation       111
+                     /replace="t"
+     variation       263
+                     /note="Rsa I polymorphism"
+                     /replace="t"
+     variation       273
+                     /replace="c"
+     variation       285..286
+                     /note="2 bp insertion"
+                     /replace="at"
+     variation       286
+                     /replace="a"
+     variation       293..294
+                     /note="1 bp deletion of C or 2 bp deletion of CT"
+                     /replace=""
+     variation       345
+                     /replace="c"
+     variation       474
+                     /replace="c"
+     variation       498
+                     /replace="c"
+     CDS             join(864..955,1086..1308,2159..2287)
+                     /codon_start=1
+                     /product="beta-globin"
+                     /protein_id="AAA21101.1"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+     exon            <864..955
+                     /number=1
+     variation       872
+                     /replace="t"
+     intron          956..1085
+                     /number=1
+     exon            1086..1308
+                     /number=2
+     intron          1309..2158
+                     /number=2
+     variation       1324
+                     /note="Ava II polymorphism"
+                     /replace="g"
+     variation       1382
+                     /replace="t"
+     variation       1389
+                     /replace="t"
+     variation       1974
+                     /replace="c"
+     exon            2159..>2287
+                     /number=3
+     variation       2520
+                     /replace="c"
+     variation       2600
+                     /replace="a"
+     variation       2602
+                     /replace="a"
+     variation       2758
+                     /note="Hinf I polymorphism"
+                     /replace="t"
+     variation       2911
+                     /replace="t"
+ORIGIN      
+        1 acctcctatt tgacaccact gattacccca ttgatagtca cactttgggt tgtaagtgac
+       61 tttttattta tttgtatttt tgactgcatt aagaggtctc tagtttttta cctcttgttt
+      121 cccaaaacct aataagtaac taatgcacag agcacattga tttgtattta ttctattttt
+      181 agacataatt tattagcatg catgagcaaa ttaagaaaaa caacaacaaa tgaatgcata
+      241 tatatgtata tgtatgtgtg tacatataca catatatata tatatttttt ttcttttctt
+      301 accagaaggt tttaatccaa ataaggagaa gatatgctta gaactgaggt agagttttca
+      361 tccattctgt cctgtaagta ttttgcatat tctggagacg caggaagaga tccatctaca
+      421 tatcccaaag ctgaattatg gtagacaaaa ctcttccact tttagtgcat caatttctta
+      481 tttgtgtaat aagaaaattg ggaaaacgat cttcaatatg cttaccaagc tgtgattcca
+      541 aatattacgt aaatacactt gcaaaggagg atgtttttag tagcaatttg tactgatggt
+      601 atggggccaa gagatatatc ttagagggag ggctgagggt ttgaagtcca actcctaagc
+      661 cagtgccaga agagccaagg acaggtacgg ctgtcatcac ttagacctca ccctgtggag
+      721 ccacacccta gggttggcca atctactccc aggagcaggg agggcaggag ccagggctgg
+      781 gcataaaagt cagggcagag ccatctattg cttacatttg cttctgacac aactgtgttc
+      841 actagcaacc tcaaacagac accatggtgc acctgactcc tgaggagaag tctgccgtta
+      901 ctgccctgtg gggcaaggtg aacgtggatg aagttggtgg tgaggccctg ggcaggttgg
+      961 tatcaaggtt acaagacagg tttaaggaga ccaatagaaa ctgggcatgt ggagacagag
+     1021 aagactcttg ggtttctgat aggcactgac tctctctgcc tattggtcta ttttcccacc
+     1081 cttaggctgc tggtggtcta cccttggacc cagaggttct ttgagtcctt tggggatctg
+     1141 tccactcctg atgctgttat gggcaaccct aaggtgaagg ctcatggcaa gaaagtgctc
+     1201 ggtgccttta gtgatggcct ggctcacctg gacaacctca agggcacctt tgccacactg
+     1261 agtgagctgc actgtgacaa gctgcacgtg gatcctgaga acttcagggt gagtctatgg
+     1321 gacccttgat gttttctttc cccttctttt ctatggttaa gttcatgtca taggaagggg
+     1381 agaagtaaca gggtacagtt tagaatggga aacagacgaa tgattgcatc agtgtggaag
+     1441 tctcaggatc gttttagttt cttttatttg ctgttcataa caattgtttt cttttgttta
+     1501 attcttgctt tctttttttt tcttctccgc aatttttact attatactta atgccttaac
+     1561 attgtgtata acaaaaggaa atatctctga gatacattaa gtaacttaaa aaaaaacttt
+     1621 acacagtctg cctagtacat tactatttgg aatatatgtg tgcttatttg catattcata
+     1681 atctccctac tttattttct tttattttta attgatacat aatcattata catatttatg
+     1741 ggttaaagtg taatgtttta atatgtgtac acatattgac caaatcaggg taattttgca
+     1801 tttgtaattt taaaaaatgc tttcttcttt taatatactt ttttgtttat cttatttcta
+     1861 atactttccc taatctcttt ctttcagggc aataatgata caatgtatca tgcctctttg
+     1921 caccattcta aagaataaca gtgataattt ctgggttaag gcaatagcaa tatttctgca
+     1981 tataaatatt tctgcatata aattgtaact gatgtaagag gtttcatatt gctaatagca
+     2041 gctacaatcc agctaccatt ctgcttttat tttatggttg ggataaggct ggattattct
+     2101 gagtccaagc taggcccttt tgctaatcat gttcatacct cttatcttcc tcccacagct
+     2161 cctgggcaac gtgctggtct gtgtgctggc ccatcacttt ggcaaagaat tcaccccacc
+     2221 agtgcaggct gcctatcaga aagtggtggc tggtgtggct aatgccctgg cccacaagta
+     2281 tcactaagct cgctttcttg ctgtccaatt tctattaaag gttcctttgt tccctaagtc
+     2341 caactactaa actgggggat attatgaagg gccttgagca tctggattct gcctaataaa
+     2401 aaacatttat tttcattgca atgatgtatt taaattattt ctgaatattt tactaaaaag
+     2461 ggaatgtggg aggtcagtgc atttaaaaca taaagaaatg aagagctagt tcaaaccttg
+     2521 ggaaaataca ctatatctta aactccatga aagaaggtga ggctgcaaac agctaatgca
+     2581 cattggcaac agccctgatg cctatgcctt attcatccct cagaaaagga ttcaagtaga
+     2641 ggcttgattt ggaggttaaa gttttgctat gctgtatttt acattactta ttgttttagc
+     2701 tgtcctcatg aatgtctttt cactacccat ttgcttatcc tgcatctctc agccttgact
+     2761 ccactcagtt ctcttgctta gagataccac ctttcccctg aagtgttcct tccatgtttt
+     2821 acggcgagat ggtttctcct cgcctggcca ctcagcctta gttgtctctg ttgtcttata
+     2881 gaggtctact tgaagaagga aaaacagggg gcatggtttg actgtcctgt gagcccttct
+     2941 tccctgcctc ccccactcac agtgacccgg aatctgcagt gctagtctcc cggaactatc
+//
+
+LOCUS       HUMBETGLOA              3002 bp    DNA     linear   PRI 26-AUG-1994
+DEFINITION  Human haplotype C4 beta-globin gene, complete cds.
+ACCESSION   L26462
+VERSION     L26462.1
+KEYWORDS    beta-globin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3002)
+  AUTHORS   Fullerton,S.M., Harding,R.M., Boyce,A.J. and Clegg,J.B.
+  TITLE     Molecular and population genetic analysis of allelic sequence
+            diversity at the human beta-globin locus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (5), 1805-1809 (1994)
+   PUBMED   7907422
+FEATURES             Location/Qualifiers
+     source          1..3002
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /haplotype="C4"
+                     /note="sequence found in a Melanesian population"
+     variation       111
+                     /replace="t"
+     variation       263
+                     /note="Rsa I polymorphism"
+                     /replace="t"
+     variation       273
+                     /replace="c"
+     variation       286..287
+                     /note="2 bp insertion of AT"
+                     /replace=""
+     variation       288
+                     /replace="t"
+     variation       295..296
+                     /note="1 bp deletion of C or 2 bp deletion of CT"
+                     /replace=""
+     variation       347
+                     /replace="c"
+     variation       476
+                     /replace="t"
+     variation       500
+                     /replace="c"
+     CDS             join(866..957,1088..1310,2161..2289)
+                     /codon_start=1
+                     /product="beta-globin"
+                     /protein_id="AAA21100.1"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH"
+     exon            <866..957
+                     /number=1
+     variation       874
+                     /replace="c"
+     intron          958..1087
+                     /number=1
+     exon            1088..1310
+                     /number=2
+     intron          1311..2160
+                     /number=2
+     variation       1326
+                     /note="Ava II polymorphism"
+                     /replace="g"
+     variation       1384
+                     /replace="g"
+     variation       1391
+                     /replace="t"
+     variation       1976
+                     /replace="t"
+     exon            2161..>2289
+                     /number=3
+     variation       2522
+                     /replace="c"
+     variation       2602
+                     /replace="a"
+     variation       2604
+                     /replace="c"
+     variation       2760
+                     /note="Hinf I polymorphism"
+                     /replace="t"
+     variation       2913
+                     /replace="g"
+ORIGIN      
+        1 acctcctatt tgacaccact gattacccca ttgatagtca cactttgggt tgtaagtgac
+       61 tttttattta tttgtatttt tgactgcatt aagaggtctc tagtttttta cctcttgttt
+      121 cccaaaacct aataagtaac taatgcacag agcacattga tttgtattta ttctattttt
+      181 agacataatt tattagcatg catgagcaaa ttaagaaaaa caacaacaaa tgaatgcata
+      241 tatatgtata tgtatgtgtg tacatataca catatatata tatatatatt ttttcttttc
+      301 ttaccagaag gttttaatcc aaataaggag aagatatgct tagaactgag gtagagtttt
+      361 catccattct gtcctgtaag tattttgcat attctggaga cgcaggaaga gatccatcta
+      421 catatcccaa agctgaatta tggtagacaa aactcttcca cttttagtgc atcaacttct
+      481 tatttgtgta ataagaaaat tgggaaaacg atcttcaata tgcttaccaa gctgtgattc
+      541 caaatattac gtaaatacac ttgcaaagga ggatgttttt agtagcaatt tgtactgatg
+      601 gtatggggcc aagagatata tcttagaggg agggctgagg gtttgaagtc caactcctaa
+      661 gccagtgcca gaagagccaa ggacaggtac ggctgtcatc acttagacct caccctgtgg
+      721 agccacaccc tagggttggc caatctactc ccaggagcag ggagggcagg agccagggct
+      781 gggcataaaa gtcagggcag agccatctat tgcttacatt tgcttctgac acaactgtgt
+      841 tcactagcaa cctcaaacag acaccatggt gcatctgact cctgaggaga agtctgccgt
+      901 tactgccctg tggggcaagg tgaacgtgga tgaagttggt ggtgaggccc tgggcaggtt
+      961 ggtatcaagg ttacaagaca ggtttaagga gaccaataga aactgggcat gtggagacag
+     1021 agaagactct tgggtttctg ataggcactg actctctctg cctattggtc tattttccca
+     1081 cccttaggct gctggtggtc tacccttgga cccagaggtt ctttgagtcc tttggggatc
+     1141 tgtccactcc tgatgctgtt atgggcaacc ctaaggtgaa ggctcatggc aagaaagtgc
+     1201 tcggtgcctt tagtgatggc ctggctcacc tggacaacct caagggcacc tttgccacac
+     1261 tgagtgagct gcactgtgac aagctgcacg tggatcctga gaacttcagg gtgagtctat
+     1321 gggacccttg atgttttctt tccccttctt ttctatggtt aagttcatgt cataggaagg
+     1381 ggataagtaa cagggtacag tttagaatgg gaaacagacg aatgattgca tcagtgtgga
+     1441 agtctcagga tcgttttagt ttcttttatt tgctgttcat aacaattgtt ttcttttgtt
+     1501 taattcttgc tttctttttt tttcttctcc gcaattttta ctattatact taatgcctta
+     1561 acattgtgta taacaaaagg aaatatctct gagatacatt aagtaactta aaaaaaaact
+     1621 ttacacagtc tgcctagtac attactattt ggaatatatg tgtgcttatt tgcatattca
+     1681 taatctccct actttatttt cttttatttt taattgatac ataatcatta tacatattta
+     1741 tgggttaaag tgtaatgttt taatatgtgt acacatattg accaaatcag ggtaattttg
+     1801 catttgtaat tttaaaaaat gctttcttct tttaatatac ttttttgttt atcttatttc
+     1861 taatactttc cctaatctct ttctttcagg gcaataatga tacaatgtat catgcctctt
+     1921 tgcaccattc taaagaataa cagtgataat ttctgggtta aggcaatagc aatatctctg
+     1981 catataaata tttctgcata taaattgtaa ctgatgtaag aggtttcata ttgctaatag
+     2041 cagctacaat ccagctacca ttctgctttt attttatggt tgggataagg ctggattatt
+     2101 ctgagtccaa gctaggccct tttgctaatc atgttcatac ctcttatctt cctcccacag
+     2161 ctcctgggca acgtgctggt ctgtgtgctg gcccatcact ttggcaaaga attcacccca
+     2221 ccagtgcagg ctgcctatca gaaagtggtg gctggtgtgg ctaatgccct ggcccacaag
+     2281 tatcactaag ctcgctttct tgctgtccaa tttctattaa aggttccttt gttccctaag
+     2341 tccaactact aaactggggg atattatgaa gggccttgag catctggatt ctgcctaata
+     2401 aaaaacattt attttcattg caatgatgta tttaaattat ttctgaatat tttactaaaa
+     2461 agggaatgtg ggaggtcagt gcatttaaaa cataaagaaa tgaagagcta gttcaaacct
+     2521 tgggaaaata cactatatct taaactccat gaaagaaggt gaggctgcaa acagctaatg
+     2581 cacattggca acagccctga tgcatatgcc ttattcatcc ctcagaaaag gattcaagta
+     2641 gaggcttgat ttggaggtta aagttttgct atgctgtatt ttacattact tattgtttta
+     2701 gctgtcctca tgaatgtctt ttcactaccc atttgcttat cctgcatctc tcagccttga
+     2761 ctccactcag ttctcttgct tagagatacc acctttcccc tgaagtgttc cttccatgtt
+     2821 ttacggcgag atggtttctc ctcgcctggc cactcagcct tagttgtctc tgttgtctta
+     2881 tagaggtcta cttgaagaag gaaaaacagg ggtcatggtt tgactgtcct gtgagccctt
+     2941 cttccctgcc tcccccactc acagtgaccc ggaatctgca gtgctagtct cccggaacta
+     3001 tc
+//
+

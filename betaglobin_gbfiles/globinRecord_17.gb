@@ -1,0 +1,16 @@
+ID: L26463.1
+Name: HUMBETGLOB
+Description: Human haplotype A1 beta-globin gene, complete cds
+Number of features: 26
+/molecule_type=DNA
+/topology=linear
+/data_file_division=PRI
+/date=26-AUG-1994
+/accessions=['L26463']
+/sequence_version=1
+/keywords=['beta-globin']
+/source=Homo sapiens (human)
+/organism=Homo sapiens
+/taxonomy=['Eukaryota', 'Metazoa', 'Chordata', 'Craniata', 'Vertebrata', 'Euteleostomi', 'Mammalia', 'Eutheria', 'Euarchontoglires', 'Primates', 'Haplorrhini', 'Catarrhini', 'Hominidae', 'Homo']
+/references=[Reference(title='Molecular and population genetic analysis of allelic sequence diversity at the human beta-globin locus', ...)]
+Seq('ACCTCCTATTTGACACCACTGATTACCCCATTGATAGTCACACTTTGGGTTGTA...ATC')
